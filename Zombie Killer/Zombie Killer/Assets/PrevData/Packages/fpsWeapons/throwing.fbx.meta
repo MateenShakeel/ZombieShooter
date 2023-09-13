@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: de23ff5c52d56f446aeb393c3b35e467
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arms
+    100002: Joint_3
+    100004: Joint_3_2
+    100006: Joint_4
+    100008: Joint_4_2
+    100010: Joint_4_3
+    100012: Joint_4_4
+    100014: Joint_4_5
+    100016: Joint_4_6
+    100018: Joint_4_7
+    100020: Joint_4_8
+    100022: L_arm
+    100024: L_arm_Pole
+    100026: L_elbow
+    100028: L_middle1
+    100030: L_middle2
+    100032: L_middle3
+    100034: L_pink1
+    100036: L_pink2
+    100038: L_pink3
+    100040: L_point1
+    100042: L_point2
+    100044: L_point3
+    100046: L_ring1
+    100048: L_ring2
+    100050: L_ring3
+    100052: L_thumb1
+    100054: L_thumb2
+    100056: L_thumb3
+    100058: L_wrist
+    100060: L_wrist_Goal
+    100062: R_arm
+    100064: R_arm_Pole
+    100066: R_elbow
+    100068: R_middle1
+    100070: R_middle2
+    100072: R_middle3
+    100074: R_pink1
+    100076: R_pink2
+    100078: R_pink3
+    100080: R_point1
+    100082: R_point2
+    100084: R_point3
+    100086: R_ring1
+    100088: R_ring2
+    100090: R_ring3
+    100092: R_thumb1
+    100094: R_thumb2
+    100096: R_thumb3
+    100098: R_wrist
+    100100: R_wrist_Goal
+    100102: root
+    100104: //RootNode
+    400000: arms
+    400002: Joint_3
+    400004: Joint_3_2
+    400006: Joint_4
+    400008: Joint_4_2
+    400010: Joint_4_3
+    400012: Joint_4_4
+    400014: Joint_4_5
+    400016: Joint_4_6
+    400018: Joint_4_7
+    400020: Joint_4_8
+    400022: L_arm
+    400024: L_arm_Pole
+    400026: L_elbow
+    400028: L_middle1
+    400030: L_middle2
+    400032: L_middle3
+    400034: L_pink1
+    400036: L_pink2
+    400038: L_pink3
+    400040: L_point1
+    400042: L_point2
+    400044: L_point3
+    400046: L_ring1
+    400048: L_ring2
+    400050: L_ring3
+    400052: L_thumb1
+    400054: L_thumb2
+    400056: L_thumb3
+    400058: L_wrist
+    400060: L_wrist_Goal
+    400062: R_arm
+    400064: R_arm_Pole
+    400066: R_elbow
+    400068: R_middle1
+    400070: R_middle2
+    400072: R_middle3
+    400074: R_pink1
+    400076: R_pink2
+    400078: R_pink3
+    400080: R_point1
+    400082: R_point2
+    400084: R_point3
+    400086: R_ring1
+    400088: R_ring2
+    400090: R_ring3
+    400092: R_thumb1
+    400094: R_thumb2
+    400096: R_thumb3
+    400098: R_wrist
+    400100: R_wrist_Goal
+    400102: root
+    400104: //RootNode
+    2100000: arms
+    4300000: arms
+    7400000: meleefists1
+    7400002: throwAnim
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: arms
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 1
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: throwAnim
+      takeName: CINEMA_4D_Main
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3360 @@
+fileFormatVersion: 2
+guid: 61c834c04cf2ff4498349ea01d471d82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4837469533535874291
+    second: Dail Reward btn
+  - first:
+      213: 466404328245935688
+    second: Dail reward Outer
+  - first:
+      213: 8231606831234599730
+    second: Quick Play
+  - first:
+      213: 4046504309911491958
+    second: Store Btn
+  - first:
+      213: -6641859825832357976
+    second: Hand Icon
+  - first:
+      213: 5432960876292746625
+    second: Gold Icon
+  - first:
+      213: 6315217862540905846
+    second: Title
+  - first:
+      213: 4537793546173887372
+    second: Setting icon
+  - first:
+      213: -867292250096675744
+    second: Rank
+  - first:
+      213: -4183186620144209920
+    second: Rank icon
+  - first:
+      213: -2330803963689405557
+    second: Rank Empty Bar
+  - first:
+      213: 5498292072942992113
+    second: Rank Fill Bar
+  - first:
+      213: -4811937776325057080
+    second: Cash Icon
+  - first:
+      213: -5623234843171258923
+    second: Gold Ico
+  - first:
+      213: 2134010722312486284
+    second: Info Btn
+  - first:
+      213: -3665433914186226124
+    second: Privacy Btn
+  - first:
+      213: 4309972650054278328
+    second: Exit Btn
+  - first:
+      213: 2451994969933577801
+    second: Video Icon
+  - first:
+      213: 1740573091685450226
+    second: Free Baner
+  - first:
+      213: 4067251831241630848
+    second: Remove Ads btn
+  - first:
+      213: 2724112354525556260
+    second: Black Panal
+  - first:
+      213: -6723379341188884365
+    second: Panal Outer
+  - first:
+      213: 2868815090411762687
+    second: Play Btn
+  - first:
+      213: 2648839185532623062
+    second: Equipped Btn
+  - first:
+      213: 5469676486853826477
+    second: Skin btn
+  - first:
+      213: -208177302989485012
+    second: Yellow Bar
+  - first:
+      213: 8905784800344793148
+    second: White Bar
+  - first:
+      213: 8782993907413736634
+    second: Damage
+  - first:
+      213: -3397915165794137905
+    second: F Rate Text
+  - first:
+      213: -6308966203506945207
+    second: Accuracy
+  - first:
+      213: -3942158519783198122
+    second: Reload
+  - first:
+      213: -5686034726568280408
+    second: Health Icon
+  - first:
+      213: -4834379607857683331
+    second: Ok Check Icon
+  - first:
+      213: 2641888677367038327
+    second: Time Panal
+  - first:
+      213: -3554722254907751633
+    second: Heart Icon
+  - first:
+      213: -2053682974858983934
+    second: Bullet Panal
+  - first:
+      213: 7325620487198890064
+    second: Health Fill Bar
+  - first:
+      213: -1452635970843490878
+    second: Health Empty Bar
+  - first:
+      213: -1211209186561522077
+    second: Shoot Btn
+  - first:
+      213: -2314960888630239313
+    second: Gun Change Btn
+  - first:
+      213: -5716240326015454981
+    second: Reload Btn
+  - first:
+      213: 4272411093410751079
+    second: Pause Btn
+  - first:
+      213: -5065229663951910152
+    second: Head Shoot Icon
+  - first:
+      213: -2677837310721849234
+    second: Kill Icon
+  - first:
+      213: 6212922463533676159
+    second: Arrow 1
+  - first:
+      213: -5234677947751474009
+    second: Arrow 2
+  - first:
+      213: 4823327732209764923
+    second: Arrow 3
+  - first:
+      213: 7854801464141082427
+    second: Game Play Loading Panal
+  - first:
+      213: -5903597089408725182
+    second: Title 2
+  - first:
+      213: 7617266573059886744
+    second: Compain Mode Title
+  - first:
+      213: 6832228427793545537
+    second: India Mode
+  - first:
+      213: 3400657819781040568
+    second: Korean Mode
+  - first:
+      213: -5719792858547108378
+    second: Level Selection
+  - first:
+      213: 7763212951586856470
+    second: Level Unlocked
+  - first:
+      213: 1312480775426879031
+    second: Level Locked
+  - first:
+      213: -567774403168002083
+    second: Level Coming Soon
+  - first:
+      213: -6288023664208638186
+    second: New York Mode
+  - first:
+      213: -6392973665331930070
+    second: Paris Mode
+  - first:
+      213: 5357419630045270901
+    second: Tokyo Mode
+  - first:
+      213: 7637354690324480742
+    second: Korea
+  - first:
+      213: 347244386016202515
+    second: India
+  - first:
+      213: -8485802528037540307
+    second: Totkoy
+  - first:
+      213: -8721697566620839871
+    second: Paris
+  - first:
+      213: 5902103639892851803
+    second: NewYork
+  - first:
+      213: 7019415156621811598
+    second: Survival Mode
+  - first:
+      213: 313846712660346332
+    second: Campaign Mode
+  - first:
+      213: -416234704309152483
+    second: Story Mode
+  - first:
+      213: -7069139159210729027
+    second: Mode Selection
+  - first:
+      213: -8179456869306143358
+    second: Close Btn
+  - first:
+      213: -563462739687972118
+    second: Mission Completed
+  - first:
+      213: -2075928556082295196
+    second: Total Reward
+  - first:
+      213: -854478836031603373
+    second: Cash icon
+  - first:
+      213: -7927479527018320961
+    second: You Are Dead
+  - first:
+      213: 3357326529475305909
+    second: Star
+  - first:
+      213: 2652412208778937799
+    second: Fail Star
+  - first:
+      213: -7195329988771594256
+    second: Home
+  - first:
+      213: -973812664911787965
+    second: Replay
+  - first:
+      213: 9010267445101986631
+    second: Next
+  - first:
+      213: 8233076526588362308
+    second: Line
+  - first:
+      213: 8070366222064218310
+    second: Better Luck Next Time
+  - first:
+      213: 1689079733890011550
+    second: Tap Resume to Play Again
+  - first:
+      213: 7327375711408139475
+    second: Paused
+  - first:
+      213: 597962551232810159
+    second: Objective Panal
+  - first:
+      213: 5320153580343645299
+    second: objective  Panal Character
+  - first:
+      213: 4154566389862819691
+    second: Resume
+  - first:
+      213: 5694162779341470816
+    second: Repla
+  - first:
+      213: -362381479456329819
+    second: Dead Icon
+  - first:
+      213: 8932368255498613092
+    second: Read Dot
+  - first:
+      213: -8562573285649698258
+    second: Mision Old
+  - first:
+      213: -4400907575943671510
+    second: SpriteDialy Reard 2
+  - first:
+      213: 4107440840500577959
+    second: No
+  - first:
+      213: -3847910690682335544
+    second: Yes btn
+  - first:
+      213: 1741476500203430242
+    second: Exit Game
+  - first:
+      213: 1862667485022367754
+    second: Do You want to Quit
+  - first:
+      213: -8029252296000939844
+    second: Setting
+  - first:
+      213: 8044753195302494917
+    second: Genral
+  - first:
+      213: 8855393993609340333
+    second: Cancel
+  - first:
+      213: 7165051025028631664
+    second: Accept
+  - first:
+      213: -7182858580674703546
+    second: GFX
+  - first:
+      213: -2293160808996245704
+    second: On Btn
+  - first:
+      213: -4880266021662960374
+    second: On Btn
+  - first:
+      213: -5309276453986577237
+    second: Sound
+  - first:
+      213: -9178885629463554633
+    second: Muic
+  - first:
+      213: -5091318061094540805
+    second: 10 Grenads
+  - first:
+      213: -3428432645648685487
+    second: 5 Health Kit
+  - first:
+      213: 585025612266360099
+    second: 100000 Cash
+  - first:
+      213: 6776312518604579942
+    second: 200 Gold
+  - first:
+      213: -3927692212028578954
+    second: Buy Btn
+  - first:
+      213: -4106113509663659885
+    second: Transparent Bg
+  - first:
+      213: 5855325078203288714
+    second: Survive Pck
+  - first:
+      213: 1907997024348040727
+    second: Daily Bonus
+  - first:
+      213: -7182959088375385948
+    second: Close Bt
+  - first:
+      213: 8411028522848916180
+    second: Daly reward Bg
+  - first:
+      213: 7343079988793222875
+    second: Gernae
+  - first:
+      213: -7228233870753716638
+    second: Gold Cash P1
+  - first:
+      213: 2492028919670192159
+    second: Cash Gernae P1
+  - first:
+      213: -5658115137609916608
+    second: Gun 1
+  - first:
+      213: -7966942058405760292
+    second: Gun 2
+  - first:
+      213: 2670529068689197435
+    second: Cash 1
+  - first:
+      213: 5284015264190389571
+    second: Gun 3
+  - first:
+      213: -8875948872217601258
+    second: Cash 2
+  - first:
+      213: 6852722816187389530
+    second: Cash Gernade P2
+  - first:
+      213: 7994678340338808264
+    second: Cash Gold 2
+  - first:
+      213: 9074367370129755316
+    second: Cash Gold 3
+  - first:
+      213: -1837769549539701443
+    second: Gold
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 51
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mission Btn
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2792
+        width: 342
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732f44dbb983f7a50800000000000000
+      internalID: 3613366526910154130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Deal Panal
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2785
+        width: 185
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37db83b7d09cddcc0800000000000000
+      internalID: 3956177303526856745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Icon
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2858
+        width: 88
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83909a90aff2a74c0800000000000000
+      internalID: -5999282377230865315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mp4 Gun icon
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 2831
+        width: 184
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a1e1319a7c586a0800000000000000
+      internalID: -8337109936293016095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dail Reward btn
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 2811
+        width: 306
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03d1d9d61bdddcb0800000000000000
+      internalID: -4837469533535874291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dail reward Outer
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 2817
+        width: 288
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ebdc2f340097600800000000000000
+      internalID: 466404328245935688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quick Play
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 2822
+        width: 252
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bca62dcca8c3270800000000000000
+      internalID: 8231606831234599730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Btn
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 2911
+        width: 266
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6759c560b32182830800000000000000
+      internalID: 4046504309911491958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand Icon
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 2937
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af0351bdaf53d3a0800000000000000
+      internalID: -6641859825832357976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Icon
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 2930
+        width: 79
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d2606c121c56b40800000000000000
+      internalID: 5432960876292746625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 2875
+        width: 267
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dc3ffbf2924a750800000000000000
+      internalID: 6315217862540905846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Setting icon
+      rect:
+        serializedVersion: 2
+        x: 2897
+        y: 2949
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8331cf103b79fe30800000000000000
+      internalID: 4537793546173887372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2873
+        width: 46
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064d98c2b42c6f3f0800000000000000
+      internalID: -867292250096675744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank icon
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 2851
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0003325bee552f5c0800000000000000
+      internalID: -4183186620144209920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank Empty Bar
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 2815
+        width: 174
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b837837e42257afd0800000000000000
+      internalID: -2330803963689405557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank Fill Bar
+      rect:
+        serializedVersion: 2
+        x: 2813
+        y: 2783
+        width: 176
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fafc17528bdd4c40800000000000000
+      internalID: 5498292072942992113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cash Icon
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 2788
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5acd05610983db0800000000000000
+      internalID: -4811937776325057080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Ico
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 2785
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd7d2c04b146f1b0800000000000000
+      internalID: -5623234843171258923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Info Btn
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 2786
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d7f4a02778d9d10800000000000000
+      internalID: 2134010722312486284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Privacy Btn
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 2777
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436a24d7643c12dc0800000000000000
+      internalID: -3665433914186226124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exit Btn
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 2787
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc522e3a4910db30800000000000000
+      internalID: 4309972650054278328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Video Icon
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 2866
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e7fe51f6c370220800000000000000
+      internalID: 2451994969933577801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free Baner
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2796
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1c3834102c72810800000000000000
+      internalID: 1740573091685450226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Remove Ads btn
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 2791
+        width: 356
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084e635cdf7c17830800000000000000
+      internalID: 4067251831241630848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Panal
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2630
+        width: 288
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42eafb3e0cdfdc520800000000000000
+      internalID: 2724112354525556260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panal Outer
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2627
+        width: 293
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3789c367c12c1b2a0800000000000000
+      internalID: -6723379341188884365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Btn
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 2679
+        width: 168
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3f546002410d720800000000000000
+      internalID: 2868815090411762687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Equipped Btn
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2625
+        width: 152
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d89ec0843192c420800000000000000
+      internalID: 2648839185532623062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skin btn
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 2664
+        width: 149
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da79a3309c138eb40800000000000000
+      internalID: 5469676486853826477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Bar
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 2647
+        width: 159
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c430d88d76c1df0800000000000000
+      internalID: -208177302989485012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Bar
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 2626
+        width: 159
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30ef9e4714b79b70800000000000000
+      internalID: 8905784800344793148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damage
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 2704
+        width: 51
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcd0dbac6673e970800000000000000
+      internalID: 8782993907413736634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F Rate Text
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2681
+        width: 39
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc88dedd82e28d0d0800000000000000
+      internalID: -3397915165794137905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accuracy
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 2656
+        width: 63
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943160c0aac0278a0800000000000000
+      internalID: -6308966203506945207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reload
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 2633
+        width: 47
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652fa0476b3aa49c0800000000000000
+      internalID: -3942158519783198122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health Icon
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 2687
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aebc56ca852711b0800000000000000
+      internalID: -5686034726568280408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ok Check Icon
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 2633
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74204c3c55d8ecb0800000000000000
+      internalID: -4834379607857683331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Panal
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 2684
+        width: 142
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771c69631cfd9a420800000000000000
+      internalID: 2641888677367038327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart Icon
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 2683
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f234c0161f61baec0800000000000000
+      internalID: -3554722254907751633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Panal
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 2650
+        width: 151
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206434a173adf73e0800000000000000
+      internalID: -2053682974858983934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health Fill Bar
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 2641
+        width: 206
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05850d23505d9a560800000000000000
+      internalID: 7325620487198890064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health Empty Bar
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 2601
+        width: 206
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c54be9e74337dbe0800000000000000
+      internalID: -1452635970843490878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Btn
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 2611
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3668f4e79abe03fe0800000000000000
+      internalID: -1211209186561522077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Change Btn
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 2634
+        width: 88
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf9544465b9fdfd0800000000000000
+      internalID: -2314960888630239313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reload Btn
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 2634
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0f51d95b5dba0b0800000000000000
+      internalID: -5716240326015454981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause Btn
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 2674
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762af25d047aa4b30800000000000000
+      internalID: 4272411093410751079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head Shoot Icon
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 2614
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa00661570b4b9b0800000000000000
+      internalID: -5065229663951910152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kill Icon
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 2616
+        width: 96
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e680328572966dad0800000000000000
+      internalID: -2677837310721849234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow 1
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 2625
+        width: 48
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7638f7201cb83650800000000000000
+      internalID: 6212922463533676159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow 2
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 2640
+        width: 72
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acd3ba1420ba57b0800000000000000
+      internalID: -5234677947751474009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow 3
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 2644
+        width: 77
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a47a17407efe240800000000000000
+      internalID: 4823327732209764923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Play Loading Panal
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2117
+        width: 837
+        height: 421
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fe85ba05cd10d60800000000000000
+      internalID: 7854801464141082427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title 2
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 2409
+        width: 210
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f43ccc9b5321ea0800000000000000
+      internalID: -5903597089408725182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compain Mode Title
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 2419
+        width: 545
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e01b61797f5b960800000000000000
+      internalID: 7617266573059886744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: India Mode
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 2354
+        width: 174
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149b5fe6e83f0de50800000000000000
+      internalID: 6832228427793545537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Korean Mode
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 2370
+        width: 172
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b904b60540913f20800000000000000
+      internalID: 3400657819781040568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Selection
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 2461
+        width: 565
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5cb7d23b63f90b0800000000000000
+      internalID: -5719792858547108378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Unlocked
+      rect:
+        serializedVersion: 2
+        x: 2791
+        y: 2126
+        width: 199
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61edb075c097cbb60800000000000000
+      internalID: 7763212951586856470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Locked
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 2128
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e29d9bf4ed63210800000000000000
+      internalID: 1312480775426879031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Coming Soon
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 2127
+        width: 195
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf9c92403cde18f0800000000000000
+      internalID: -567774403168002083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New York Mode
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 2109
+        width: 177
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f0893fac37cb8a0800000000000000
+      internalID: -6288023664208638186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paris Mode
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 2101
+        width: 181
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c9673a2589747a0800000000000000
+      internalID: -6392973665331930070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tokyo Mode
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 2107
+        width: 185
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5739d89c4c0695a40800000000000000
+      internalID: 5357419630045270901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Korea
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 2173
+        width: 71
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2447c50a55df960800000000000000
+      internalID: 7637354690324480742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: India
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 2179
+        width: 83
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f8eb6ede8a1d400800000000000000
+      internalID: 347244386016202515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Totkoy
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 2155
+        width: 60
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ee53a7f8f5c3a80800000000000000
+      internalID: -8485802528037540307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paris
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 2165
+        width: 59
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1401d2fc54e46f680800000000000000
+      internalID: -8721697566620839871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewYork
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 2165
+        width: 56
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c7a536dfb78e150800000000000000
+      internalID: 5902103639892851803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survival Mode
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1707
+        width: 181
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f9f6df4e8f96160800000000000000
+      internalID: 7019415156621811598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campaign Mode
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1706
+        width: 183
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd54b0e1ce10b5400800000000000000
+      internalID: 313846712660346332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Story Mode
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1705
+        width: 179
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d159672edbc393af0800000000000000
+      internalID: -416234704309152483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mode Selection
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1986
+        width: 651
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1e07b736f55ed90800000000000000
+      internalID: -7069139159210729027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Close Btn
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1899
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28de061605bbc7e80800000000000000
+      internalID: -8179456869306143358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mission Completed
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1911
+        width: 434
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2eab4af9d2e28f0800000000000000
+      internalID: -563462739687972118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Total Reward
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1784
+        width: 434
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e00ab1af1d033e0800000000000000
+      internalID: -2075928556082295196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cash icon
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1804
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d3f3e96084424f0800000000000000
+      internalID: -854478836031603373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Are Dead
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1718
+        width: 297
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb24eb2f5febf190800000000000000
+      internalID: -7927479527018320961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1621
+        width: 181
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1ee50d0be979e20800000000000000
+      internalID: 3357326529475305909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fail Star
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1630
+        width: 243
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c58d2ec9d24fc420800000000000000
+      internalID: 2652412208778937799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Home
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1720
+        width: 130
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffbd896f7d052c90800000000000000
+      internalID: -7195329988771594256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replay
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1672
+        width: 134
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348082e6a825c72f0800000000000000
+      internalID: -973812664911787965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1617
+        width: 124
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743029cb086ea0d70800000000000000
+      internalID: 9010267445101986631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Line
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1591
+        width: 827
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ef7efea73c14270800000000000000
+      internalID: 8233076526588362308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better Luck Next Time
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1594
+        width: 161
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0f2710253bfff60800000000000000
+      internalID: 8070366222064218310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tap Resume to Play Again
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1594
+        width: 184
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9153df9111d07710800000000000000
+      internalID: 1689079733890011550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paused
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1625
+        width: 167
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcae4e236110b560800000000000000
+      internalID: 7327375711408139475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objective Panal
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1631
+        width: 704
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facc73fa5c36c4800800000000000000
+      internalID: 597962551232810159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objective  Panal Character
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 1605
+        width: 244
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374d7e27e7bf4d940800000000000000
+      internalID: 5320153580343645299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resume
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 1618
+        width: 205
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67ec87ae1cf7a930800000000000000
+      internalID: 4154566389862819691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repla
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 1681
+        width: 221
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c36ebf0eab50f40800000000000000
+      internalID: 5694162779341470816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Icon
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 1801
+        width: 230
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af23d3e6ff88faf0800000000000000
+      internalID: -362381479456329819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Read Dot
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 1720
+        width: 201
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46178f74a9526fb70800000000000000
+      internalID: 8932368255498613092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mision Old
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1366
+        width: 260
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22b99196f0ab2980800000000000000
+      internalID: -8562573285649698258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteDialy Reard 2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1389
+        width: 280
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a215d8e60e5dce2c0800000000000000
+      internalID: -4400907575943671510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1463
+        width: 217
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a608f9aeaf800930800000000000000
+      internalID: 4107440840500577959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yes btn
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1390
+        width: 212
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce837a2d99799ac0800000000000000
+      internalID: -3847910690682335544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exit Game
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1466
+        width: 223
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261e05376a7fa2810800000000000000
+      internalID: 1741476500203430242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Do You want to Quit
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1423
+        width: 161
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00bd63753689d910800000000000000
+      internalID: 1862667485022367754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Setting
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1348
+        width: 228
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8dfdcd39d529090800000000000000
+      internalID: -8029252296000939844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genral
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1438
+        width: 223
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2a1bf7864b4af60800000000000000
+      internalID: 8044753195302494917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cancel
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1375
+        width: 220
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da566375beda4ea70800000000000000
+      internalID: 8855393993609340333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accept
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1371
+        width: 205
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c4168f1ff5f6360800000000000000
+      internalID: 7165051025028631664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFX
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1447
+        width: 198
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f84036d2c515c90800000000000000
+      internalID: -7182858580674703546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Off Btn
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1443
+        width: 109
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f6ee6d46e0d20e0800000000000000
+      internalID: 4137057675227665814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: On Btn
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1367
+        width: 114
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05de59f8efc54cb0800000000000000
+      internalID: -2293160808996245704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sound
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1461
+        width: 261
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4d8c1e139a156b0800000000000000
+      internalID: -5309276453986577237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muic
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 1374
+        width: 267
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b513edd62c0e9080800000000000000
+      internalID: -9178885629463554633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10 Grenads
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 1360
+        width: 138
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9ede9c2310859b0800000000000000
+      internalID: -5091318061094540805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5 Health Kit
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 1359
+        width: 138
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156e1c36ca2cb60d0800000000000000
+      internalID: -3428432645648685487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100000 Cash
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 1357
+        width: 143
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d44abd1bd6e1800800000000000000
+      internalID: 585025612266360099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 200 Gold
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 1360
+        width: 141
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664657e455c4a0e50800000000000000
+      internalID: 6776312518604579942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buy Btn
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 1362
+        width: 205
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673e7f23eb80e79c0800000000000000
+      internalID: -3927692212028578954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transparent Bg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 933
+        width: 776
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398a011a4872407c0800000000000000
+      internalID: -4106113509663659885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survive Pck
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1263
+        width: 253
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c4eb2c22b424150800000000000000
+      internalID: 5855325078203288714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daily Bonus
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1145
+        width: 351
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e64c44f219a7a10800000000000000
+      internalID: 1907997024348040727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Close Bt
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 948
+        width: 111
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0b83d14c0015c90800000000000000
+      internalID: -7182959088375385948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daly reward Bg
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1033
+        width: 150
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d29614c0e9f9b470800000000000000
+      internalID: 8411028522848916180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gernae
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1199
+        width: 124
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6ac41385cd7e560800000000000000
+      internalID: 7343079988793222875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Cash P1
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1210
+        width: 98
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2662744679720bb90800000000000000
+      internalID: -7228233870753716638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cash Gernae P1
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 1209
+        width: 103
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1831fe5917759220800000000000000
+      internalID: 2492028919670192159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun 1
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1207
+        width: 93
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f1084a2465a71b0800000000000000
+      internalID: -5658115137609916608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun 2
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1075
+        width: 119
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2fa96986cbf6190800000000000000
+      internalID: -7966942058405760292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cash 1
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 1081
+        width: 89
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b790395f900af0520800000000000000
+      internalID: 2670529068689197435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun 3
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 1084
+        width: 105
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d5fc903e7945940800000000000000
+      internalID: 5284015264190389571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cash 2
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 1090
+        width: 88
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bd0fa078b42d480800000000000000
+      internalID: -8875948872217601258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cash Gernade P2
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 952
+        width: 100
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5650131813c91f50800000000000000
+      internalID: 6852722816187389530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cash Gold 2
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 949
+        width: 117
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c57769c79dc2fe60800000000000000
+      internalID: 7994678340338808264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cash Gold 3
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 952
+        width: 98
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bccaf98b01aeed70800000000000000
+      internalID: 9074367370129755316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 953
+        width: 106
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d08a4e45eee76e0800000000000000
+      internalID: -1837769549539701443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bc32a16cf992acf4eb61ef97b3e43ab5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Daly reward Bg: 8411028522848916180
+      Pause Btn: 4272411093410751079
+      Yellow Bar: -208177302989485012
+      Repla: 5694162779341470816
+      Buy Btn: -3927692212028578954
+      White Bar: 8905784800344793148
+      Quick Play: 8231606831234599730
+      Arrow 1: 6212922463533676159
+      On Btn: -2293160808996245704
+      Transparent Bg: -4106113509663659885
+      Sound: -5309276453986577237
+      Korea: 7637354690324480742
+      Korean Mode: 3400657819781040568
+      Read Dot: 8932368255498613092
+      Campaign Mode: 313846712660346332
+      Level Selection: -5719792858547108378
+      NewYork: 5902103639892851803
+      Video Icon: 2451994969933577801
+      Health Icon: -5686034726568280408
+      Fail Star: 2652412208778937799
+      Bullet Icon: -5999282377230865315
+      Damage: 8782993907413736634
+      Cash icon: -854478836031603373
+      Mp4 Gun icon: -8337109936293016095
+      Heart Icon: -3554722254907751633
+      Genral: 8044753195302494917
+      Panal Outer: -6723379341188884365
+      Dead Icon: -362381479456329819
+      Black Panal: 2724112354525556260
+      Mega Deal Panal: 3956177303526856745
+      Star: 3357326529475305909
+      Replay: -973812664911787965
+      5 Health Kit: -3428432645648685487
+      100000 Cash: 585025612266360099
+      Paused: 7327375711408139475
+      Level Coming Soon: -567774403168002083
+      Bullet Panal: -2053682974858983934
+      Close Bt: -7182959088375385948
+      Accept: 7165051025028631664
+      Daily Bonus: 1907997024348040727
+      Arrow 2: -5234677947751474009
+      Level Unlocked: 7763212951586856470
+      Gun 2: -7966942058405760292
+      Mode Selection: -7069139159210729027
+      Better Luck Next Time: 8070366222064218310
+      Do You want to Quit: 1862667485022367754
+      Gun 3: 5284015264190389571
+      You Are Dead: -7927479527018320961
+      Gold Ico: -5623234843171258923
+      Rank: -867292250096675744
+      Rank Fill Bar: 5498292072942992113
+      Accuracy: -6308966203506945207
+      Hand Icon: -6641859825832357976
+      Mision Old: -8562573285649698258
+      Home: -7195329988771594256
+      Exit Btn: 4309972650054278328
+      Dail Reward btn: -4837469533535874291
+      Line: 8233076526588362308
+      India Mode: 6832228427793545537
+      Shoot Btn: -1211209186561522077
+      Gold Icon: 5432960876292746625
+      Info Btn: 2134010722312486284
+      Gold Cash P1: -7228233870753716638
+      Exit Game: 1741476500203430242
+      Mission Btn: 3613366526910154130
+      Title: 6315217862540905846
+      Privacy Btn: -3665433914186226124
+      200 Gold: 6776312518604579942
+      Cash Icon: -4811937776325057080
+      Mission Completed: -563462739687972118
+      objective  Panal Character: 5320153580343645299
+      No: 4107440840500577959
+      Store Btn: 4046504309911491958
+      SpriteDialy Reard 2: -4400907575943671510
+      Close Btn: -8179456869306143358
+      Cash 2: -8875948872217601258
+      Game Play Loading Panal: 7854801464141082427
+      Objective Panal: 597962551232810159
+      Muic: -9178885629463554633
+      Next: 9010267445101986631
+      Health Empty Bar: -1452635970843490878
+      GFX: -7182858580674703546
+      Survival Mode: 7019415156621811598
+      Cancel: 8855393993609340333
+      Story Mode: -416234704309152483
+      Cash Gernade P2: 6852722816187389530
+      F Rate Text: -3397915165794137905
+      Cash Gold 2: 7994678340338808264
+      Dail reward Outer: 466404328245935688
+      Head Shoot Icon: -5065229663951910152
+      Gold: -1837769549539701443
+      Rank Empty Bar: -2330803963689405557
+      Remove Ads btn: 4067251831241630848
+      Reload: -3942158519783198122
+      Setting icon: 4537793546173887372
+      Tap Resume to Play Again: 1689079733890011550
+      Resume: 4154566389862819691
+      Gun Change Btn: -2314960888630239313
+      10 Grenads: -5091318061094540805
+      Free Baner: 1740573091685450226
+      Off Btn: 4137057675227665814
+      Gun 1: -5658115137609916608
+      Health Fill Bar: 7325620487198890064
+      Survive Pck: 5855325078203288714
+      Yes btn: -3847910690682335544
+      Cash Gold 3: 9074367370129755316
+      Rank icon: -4183186620144209920
+      Level Locked: 1312480775426879031
+      Title 2: -5903597089408725182
+      New York Mode: -6288023664208638186
+      Equipped Btn: 2648839185532623062
+      Paris: -8721697566620839871
+      Totkoy: -8485802528037540307
+      Setting: -8029252296000939844
+      Tokyo Mode: 5357419630045270901
+      India: 347244386016202515
+      Cash Gernae P1: 2492028919670192159
+      Ok Check Icon: -4834379607857683331
+      Compain Mode Title: 7617266573059886744
+      Total Reward: -2075928556082295196
+      Cash 1: 2670529068689197435
+      Skin btn: 5469676486853826477
+      Kill Icon: -2677837310721849234
+      Play Btn: 2868815090411762687
+      Paris Mode: -6392973665331930070
+      Reload Btn: -5716240326015454981
+      Arrow 3: 4823327732209764923
+      Time Panal: 2641888677367038327
+      Gernae: 7343079988793222875
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
