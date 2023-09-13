@@ -1,6 +1,6 @@
 ﻿// -------------------------------------------
 // Control Freak 2
-// Copyright (C) 2013-2020 Dan's Game Tools
+// Copyright (C) 2013-2019 Dan's Game Tools
 // http://DansGameTools.blogspot.com
 // -------------------------------------------
 
@@ -37,8 +37,6 @@ public class SuperTouchZone : TouchControl
 	public int maxFingers = 3;
 		
 	public float touchSmoothing	= 0.5f;
-
-	public bool			disableTouchMarkers = false;
 
 
 	public bool			strictMultiTouch;				//!< Two fingers need to start at the same time.
@@ -1993,9 +1991,6 @@ public class SuperTouchZone : TouchControl
 	// ----------------------
 	void OnGUI()
 		{
-		if (this.disableTouchMarkers)
-			return;
-
 		// Draw the markers even if there's no TouchMarkerGUI in the scene...
 			
 		if (TouchMarkerGUI.mInst == null)

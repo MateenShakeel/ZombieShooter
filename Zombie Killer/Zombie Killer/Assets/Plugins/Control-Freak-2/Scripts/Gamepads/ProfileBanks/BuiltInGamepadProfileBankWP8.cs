@@ -1,6 +1,6 @@
 ﻿// -------------------------------------------
 // Control Freak 2
-// Copyright (C) 2013-2020 Dan's Game Tools
+// Copyright (C) 2013-2019 Dan's Game Tools
 // http://DansGameTools.blogspot.com
 // -------------------------------------------
 
@@ -28,7 +28,7 @@
 #endif
 
 
-//#if UNITY_PRE_5_4
+#if UNITY_PRE_5_4
 
 using UnityEngine;
 
@@ -47,6 +47,6 @@ public class BuiltInGamepadProfileBankWP8 : BuiltInGamepadProfileBank
 	}
 }
 
-//#endif
+#endif
 
 //! \endcond

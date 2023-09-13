@@ -1,6 +1,6 @@
 ﻿// -------------------------------------------
 // Control Freak 2
-// Copyright (C) 2013-2020 Dan's Game Tools
+// Copyright (C) 2013-2019 Dan's Game Tools
 // http://DansGameTools.blogspot.com
 // -------------------------------------------
 
@@ -112,69 +112,6 @@ abstract public class BuiltInGamepadProfileBank
 		if (mInst != null)
 			return mInst;
 			
-		string platformName = Application.platform.ToString().ToLower();
-
-		switch (platformName)
-			{
-			case "android" :
-				mInst = new BuiltInGamepadProfileBankAndroid();
-				break;
-	
-			case "osxeditor" :
-			case "osxplayer" :
-			case "osxdashboardplayer" :
-			case "osxwebplayer" :
-				mInst = new BuiltInGamepadProfileBankOSX();
-				break;
-
-			case "windowseditor" :
-			case "windowsplayer" :
-			case "metroplayerarm" :
-			case "metroplayerx64" :
-			case "metroplayerx86" :
-			case "wsaplayerarm" :
-			case "wsaplayerx64" :
-			case "wsaplayerx86" :
-			case "windowswebplayer" :
-				mInst = new BuiltInGamepadProfileBankWin();
-				break;
-
-			case "tvos" :
-			case "iphoneplayer" :
-				mInst = new BuiltInGamepadProfileBankIOS();
-				break;
-
-			case "wp8player" :
-				mInst = new BuiltInGamepadProfileBankWP8();
-				break;
-
-			case "linuxeditor" :
-			case "linuxplayer" :	
-				mInst = new BuiltInGamepadProfileBankLinux();
-				break;
-
-			case "webglplayer" :
-				mInst = new BuiltInGamepadProfileBankWebGL();
-				break;		
-
-			case "stadia" :
-				mInst = new BuiltInGamepadProfileBankStadia();
-				break;		
-
-			case "xboxone" :
-				mInst = new BuiltInGamepadProfileBankXboxOne();
-				break;		
-
-			case "ps4" :
-				mInst = new BuiltInGamepadProfileBankPS4();
-				break;		
-
-			}
-
-
-
-
-/*
 		switch (Application.platform)
 			{
 			case RuntimePlatform.Android :
@@ -232,7 +169,7 @@ abstract public class BuiltInGamepadProfileBank
 				break;		
 #endif
 			}	
-*/
+
 		return mInst;
 		}
 

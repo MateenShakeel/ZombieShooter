@@ -11,8 +11,7 @@ public class AxisDebugger : MonoBehaviour
 	public bool 
 		drawGUI			= true,
 		drawMouseStats = false,
-		drawUnityAxes	= false,
-		drawKeyCodes	= true;
+		drawUnityAxes	= false;
 
 	[Tooltip("When pressed, delta accumulators will be reset.")]
 	public KeyCode
@@ -27,19 +26,7 @@ public class AxisDebugger : MonoBehaviour
 	public GUISkin
 		skin;
 
-	private KeyCode[] 
-		allKeyCodes;
-	
-
-	// ----------------
-	public AxisDebugger() : base()
-		{
-		this.allKeyCodes = (KeyCode[])System.Enum.GetValues(typeof(KeyCode));
-		}
-
-
-
-	// -----------------	
+		
 	void Update()	
 		{
 		if (Input.GetKeyDown(this.deltaResetKey))
@@ -78,14 +65,8 @@ public class AxisDebugger : MonoBehaviour
 	
 		GUILayout.BeginVertical((GUI.skin != null) ? GUI.skin.box : GUIStyle.none);
 	
-	
-
-
-
-	
+		
 		GUILayout.Box("Active RIG: " + CF2Input.activeRig.name);
-
-		// Draw mouse state...
 
 		if (this.drawMouseStats)
 			{
@@ -93,31 +74,6 @@ public class AxisDebugger : MonoBehaviour
 				"Mouse Delta: cf: " + this.cfMouseDelta + " un:" + this.unMouseDelta);
 			}
 
-		// Test keycodes...
-
-		if (this.drawKeyCodes)
-			{
-
-			InputRig rig = CF2Input.activeRig;
-			if (rig && (this.allKeyCodes != null))
-				{
-				string s = "";
-
-				for (int i = 0; i < this.allKeyCodes.Length; ++i)
-					{
-					if (rig.GetKey(this.allKeyCodes[i]))
-						s += (string.IsNullOrEmpty(s) ? "" : ", ") + (this.allKeyCodes[i].ToString());
-					}
-		
-				if (!string.IsNullOrEmpty(s))
-					GUILayout.Box(s);
-
-				}
-			}
-
-
-		// Draw axes...
-			
 		List<InputRig.AxisConfig> axes = CF2Input.activeRig.axes.list;
 		for (int i = 0; i < axes.Count; ++i)
 			{
@@ -164,10 +120,6 @@ public class AxisDebugger : MonoBehaviour
 			}
 
 		GUILayout.EndVertical();
-
-
-
-	
 
 		}
 

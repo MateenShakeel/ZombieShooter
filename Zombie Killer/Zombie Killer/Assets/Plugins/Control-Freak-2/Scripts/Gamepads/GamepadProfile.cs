@@ -1,6 +1,6 @@
 ﻿// -------------------------------------------
 // Control Freak 2
-// Copyright (C) 2013-2020 Dan's Game Tools
+// Copyright (C) 2013-2019 Dan's Game Tools
 // http://DansGameTools.blogspot.com
 // -------------------------------------------
 
@@ -237,24 +237,24 @@ public class GamepadProfile
 	public GamepadProfile(
 		string 	name,
 		string 	deviceIdentifier,	
-		ProfileMode	profileMode = ProfileMode.Normal,
-		string		unityVerFrom = null,
-		string 		unityVerTo = null,
-		JoystickSource	leftStick = null,
-		JoystickSource	rightStick = null,
-		JoystickSource	dpad = null,
-		KeySource		faceBottom = null,
-		KeySource		faceRight = null,
-		KeySource		faceLeft	= null,
-		KeySource		faceTop = null,
-		KeySource		select	= null,
-		KeySource		start = null,
-		KeySource		L1	= null,
-		KeySource		R1 = null,
-		KeySource		L2 = null,
-		KeySource		R2 = null,
-		KeySource		L3 = null,
-		KeySource		R3 = null)
+		ProfileMode	profileMode,
+		string		unityVerFrom,
+		string 		unityVerTo,
+		JoystickSource	leftStick,
+		JoystickSource	rightStick,
+		JoystickSource	dpad,
+		KeySource		keyFaceD,
+		KeySource		keyFaceR,
+		KeySource		keyFaceL,
+		KeySource		keyFaceU,
+		KeySource		keySelect,
+		KeySource		keyStart,
+		KeySource		keyL1,
+		KeySource		keyR1,
+		KeySource		keyL2,
+		KeySource		keyR2,
+		KeySource		keyL3,
+		KeySource		keyR3)
 		{
 		this.name 					= name;
 		this.joystickIdentifier = deviceIdentifier;
@@ -273,20 +273,20 @@ public class GamepadProfile
 		this.rightStick	= (rightStick != null)	? rightStick 	: JoystickSource.Empty();
 		this.dpad		= (dpad != null) 		? dpad 			: JoystickSource.Empty();
 
-		this.keyFaceU	= (faceTop != null)	? faceTop 		: KeySource.Empty();			
-		this.keyFaceR	= (faceRight != null)	? faceRight 		: KeySource.Empty();			
-		this.keyFaceD	= (faceBottom != null)	? faceBottom 		: KeySource.Empty();			
-		this.keyFaceL	= (faceLeft != null)	? faceLeft 		: KeySource.Empty();			
+		this.keyFaceU	= (keyFaceU != null)	? keyFaceU 		: KeySource.Empty();			
+		this.keyFaceR	= (keyFaceR != null)	? keyFaceR 		: KeySource.Empty();			
+		this.keyFaceD	= (keyFaceD != null)	? keyFaceD 		: KeySource.Empty();			
+		this.keyFaceL	= (keyFaceL != null)	? keyFaceL 		: KeySource.Empty();			
 
-		this.keyStart	= (start != null)	? start		: KeySource.Empty();			
-		this.keySelect	= (select != null)	? select		: KeySource.Empty();			
+		this.keyStart	= (keyStart != null)	? keyStart		: KeySource.Empty();			
+		this.keySelect	= (keySelect != null)	? keySelect		: KeySource.Empty();			
 			
-		this.keyL1		= (L1 != null)		? L1		: KeySource.Empty();			
-		this.keyR1		= (R1 != null)		? R1		: KeySource.Empty();			
-		this.keyL2		= (L2 != null)		? L2		: KeySource.Empty();			
-		this.keyR2		= (R2 != null)		? R2		: KeySource.Empty();			
-		this.keyL3		= (L3 != null)		? L3		: KeySource.Empty();			
-		this.keyR3		= (R3 != null)		? R3		: KeySource.Empty();
+		this.keyL1		= (keyL1 != null)		? keyL1		: KeySource.Empty();			
+		this.keyR1		= (keyR1 != null)		? keyR1		: KeySource.Empty();			
+		this.keyL2		= (keyL2 != null)		? keyL2		: KeySource.Empty();			
+		this.keyR2		= (keyR2 != null)		? keyR2		: KeySource.Empty();			
+		this.keyL3		= (keyL3 != null)		? keyL3		: KeySource.Empty();			
+		this.keyR3		= (keyR3 != null)		? keyR3		: KeySource.Empty();
 		}
 
 
@@ -432,72 +432,55 @@ public class GamepadProfile
 	// ---------------------
 	public class GenericProfile : GamepadProfile
 		{
-		//// -------------------
-		//public GenericProfile() : base(
-		//	"Generic Gamepad", 
-		//	"",
-		//	ProfileMode.Normal,
-		//	null,
-		//	null,
-		//	//GamepadProfile.PlatformFlag.All,
+		// -------------------
+		public GenericProfile() : base(
+			"Generic Gamepad", 
+			"",
+			ProfileMode.Normal,
+			null,
+			null,
+			//GamepadProfile.PlatformFlag.All,
 
-		//	GamepadProfile.JoystickSource.Axes(0, true, 1, false),	// LS
-		//	GamepadProfile.JoystickSource.Empty(),
-		//	GamepadProfile.JoystickSource.Empty(),
+			GamepadProfile.JoystickSource.Axes(0, true, 1, false),	// LS
+			GamepadProfile.JoystickSource.Empty(),
+			GamepadProfile.JoystickSource.Empty(),
 	
-		//	GamepadProfile.KeySource.Key(0),		// A
-		//	GamepadProfile.KeySource.Key(1),		// B
-		//	GamepadProfile.KeySource.Empty(),		// X
-		//	GamepadProfile.KeySource.Empty(),		// Y
+			GamepadProfile.KeySource.Key(0),		// A
+			GamepadProfile.KeySource.Key(1),		// B
+			GamepadProfile.KeySource.Empty(),		// X
+			GamepadProfile.KeySource.Empty(),		// Y
 			
-		//	GamepadProfile.KeySource.Empty(),		// Select	// ESCAPE
-		//	GamepadProfile.KeySource.Empty(),		// Start
+			GamepadProfile.KeySource.Empty(),		// Select	// ESCAPE
+			GamepadProfile.KeySource.Empty(),		// Start
 
-		//	GamepadProfile.KeySource.Empty(),		// L1
-		//	GamepadProfile.KeySource.Empty(),		// R1
-		//	GamepadProfile.KeySource.Empty(),		// L2
-		//	GamepadProfile.KeySource.Empty(),		// R2
-		//	GamepadProfile.KeySource.Empty(),		// L3
-		//	GamepadProfile.KeySource.Empty()		// R3			
-		//	)
-		//	{			
-		//	}
+			GamepadProfile.KeySource.Empty(),		// L1
+			GamepadProfile.KeySource.Empty(),		// R1
+			GamepadProfile.KeySource.Empty(),		// L2
+			GamepadProfile.KeySource.Empty(),		// R2
+			GamepadProfile.KeySource.Empty(),		// L3
+			GamepadProfile.KeySource.Empty()		// R3			
+			)
+			{			
+			}
 
 
 		// ----------------------
 		public GenericProfile(
-			JoystickSource	leftStick = null,
-			JoystickSource	rightStick = null,
-			JoystickSource	dpad = null,
-			KeySource		faceBottom = null,
-			KeySource		faceRight = null,
-			KeySource		faceLeft	= null,
-			KeySource		faceTop = null,
-			KeySource		select	= null,
-			KeySource		start = null,
-			KeySource		L1	= null,
-			KeySource		R1 = null,
-			KeySource		L2 = null,
-			KeySource		R2 = null,
-			KeySource		L3 = null,
-			KeySource		R3 = null)
-
-			//GamepadProfile.JoystickSource	leftStick,
-			//GamepadProfile.JoystickSource	rightStick,
-			//GamepadProfile.JoystickSource	dpad,
-			//GamepadProfile.KeySource		keyFaceD,
-			//GamepadProfile.KeySource		keyFaceR,
-			//GamepadProfile.KeySource		keyFaceL,
-			//GamepadProfile.KeySource		keyFaceU,
-			//GamepadProfile.KeySource		keySelect,
-			//GamepadProfile.KeySource		keyStart,
-			//GamepadProfile.KeySource		keyL1,
-			//GamepadProfile.KeySource		keyR1,
-			//GamepadProfile.KeySource		keyL2,
-			//GamepadProfile.KeySource		keyR2,
-			//GamepadProfile.KeySource		keyL3,
-			//GamepadProfile.KeySource		keyR3) 
-: 
+			GamepadProfile.JoystickSource	leftStick,
+			GamepadProfile.JoystickSource	rightStick,
+			GamepadProfile.JoystickSource	dpad,
+			GamepadProfile.KeySource		keyFaceD,
+			GamepadProfile.KeySource		keyFaceR,
+			GamepadProfile.KeySource		keyFaceL,
+			GamepadProfile.KeySource		keyFaceU,
+			GamepadProfile.KeySource		keySelect,
+			GamepadProfile.KeySource		keyStart,
+			GamepadProfile.KeySource		keyL1,
+			GamepadProfile.KeySource		keyR1,
+			GamepadProfile.KeySource		keyL2,
+			GamepadProfile.KeySource		keyR2,
+			GamepadProfile.KeySource		keyL3,
+			GamepadProfile.KeySource		keyR3) : 
 		base (
 			"Generic Gamepad", 
 			"",
@@ -505,21 +488,21 @@ public class GamepadProfile
 			null,
 			null,
 			//GamepadProfile.PlatformFlag.All,	
-			leftStick : leftStick,
-			rightStick : rightStick,
-			dpad : dpad,
-			faceBottom : faceBottom,
-			faceRight : faceRight,
-			faceLeft	: faceLeft,
-			faceTop : faceTop,
-			select	: select,
-			start : start,
-			L1	: L1,
-			R1 : R1,
-			L2 : L2,
-			R2 : R2,
-			L3 : L3,
-			R3 : R3)
+			leftStick,
+			rightStick,
+			dpad,
+			keyFaceD,
+			keyFaceR,
+			keyFaceL,
+			keyFaceU,
+			keySelect,
+			keyStart,
+			keyL1,
+			keyR1,
+			keyL2,
+			keyR2,
+			keyL3,
+			keyR3)
 			{ 
 			}
 			

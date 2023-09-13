@@ -1,6 +1,6 @@
 ﻿// -------------------------------------------
 // Control Freak 2
-// Copyright (C) 2013-2020 Dan's Game Tools
+// Copyright (C) 2013-2019 Dan's Game Tools
 // http://DansGameTools.blogspot.com
 // -------------------------------------------
 
@@ -25,7 +25,6 @@ public class TouchGestureStateBinding : InputBindingBase
 		rawPressBinding,
 		normalPressBinding,
 		longPressBinding,
-		rawTapBinding,
 		tapBinding,
 		doubleTapBinding,
 		longTapBinding;
@@ -77,7 +76,6 @@ public class TouchGestureStateBinding : InputBindingBase
 		this.longPressBinding	= new DigitalBinding(this);
 		this.normalPressBinding	= new DigitalBinding(this);
 		//this.releasedBinding	= new DigitalBinding(this);
-		this.rawTapBinding		= new DigitalBinding(this);
 		this.tapBinding			= new DigitalBinding(this);
 		this.doubleTapBinding	= new DigitalBinding(this);
 		this.longTapBinding		= new DigitalBinding(this);
@@ -131,7 +129,6 @@ public class TouchGestureStateBinding : InputBindingBase
 			this.rawPressBinding					.CopyFrom(b.rawPressBinding);
 			this.normalPressBinding					.CopyFrom(b.normalPressBinding);
 			this.longPressBinding					.CopyFrom(b.longPressBinding);
-			this.rawTapBinding						.CopyFrom(b.rawTapBinding);
 			this.tapBinding							.CopyFrom(b.tapBinding);
 			this.doubleTapBinding					.CopyFrom(b.doubleTapBinding);
 			this.longTapBinding						.CopyFrom(b.longTapBinding);
@@ -184,7 +181,6 @@ public class TouchGestureStateBinding : InputBindingBase
 			this.tapBinding.Sync(true, rig);
 			this.tapMousePosBinding.SyncPos(screenState.GetTapPos(), rig);
 			}
-
 
 		if (screenState.JustTapped(2))
 			{

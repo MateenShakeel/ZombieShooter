@@ -1,6 +1,6 @@
 ﻿// -------------------------------------------
 // Control Freak 2
-// Copyright (C) 2013-2020 Dan's Game Tools
+// Copyright (C) 2013-2019 Dan's Game Tools
 // http://DansGameTools.blogspot.com
 // -------------------------------------------
 
@@ -244,7 +244,7 @@ public class TouchButton : DynamicTouchControl, IBindingContainer
 
 
 	// ---------------
-	public void ChangeToggleState(bool toggleState, bool syncRigSwitch = true)
+	private void ChangeToggleState(bool toggleState, bool syncRigSwitch)
 		{
 		this.toggledCur				= toggleState;
 		this.elapsedSinceToggled	= 0;

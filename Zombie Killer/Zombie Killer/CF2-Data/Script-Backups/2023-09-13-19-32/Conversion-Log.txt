@@ -1,0 +1,11 @@
+Converting script [1 / 1]	[\PrevData\Packages\fpsWeapons\scripts\playercontroller.cs]
+	Fragments : 2
+		[ 0] : Line:  177	InputMethod   GetAxisRaw          	("Horizontal")
+		[ 1] : Line:  178	InputMethod   GetAxisRaw          	("Vertical")
+
+
+1 scripts modified!
+Overwriting actual scripts...
+	[0 / 1] from  [C:/Users/Mateen/Documents/GitHub/ZombieShooter/Zombie Killer/Zombie Killer/CF2-Data/Script-Backups/2023-09-13-19-32\Assets-After/\PrevData\Packages\fpsWeapons\scripts\playercontroller.cs] to [C:/Users/Mateen/Documents/GitHub/ZombieShooter/Zombie Killer/Zombie Killer/Assets/\PrevData\Packages\fpsWeapons\scripts\playercontroller.cs]
+
+Overwriting COMPLETED!

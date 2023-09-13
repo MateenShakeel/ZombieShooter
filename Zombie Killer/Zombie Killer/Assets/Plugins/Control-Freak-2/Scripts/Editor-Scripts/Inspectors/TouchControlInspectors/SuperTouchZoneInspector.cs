@@ -1,6 +1,6 @@
 ﻿// -------------------------------------------
 // Control Freak 2
-// Copyright (C) 2013-2020 Dan's Game Tools
+// Copyright (C) 2013-2019 Dan's Game Tools
 // http://DansGameTools.blogspot.com
 // -------------------------------------------
 
@@ -207,7 +207,6 @@ public class SuperTouchZoneInspector : TouchControlInspectorBase
 			gestureDetectionOrder	= c.gestureDetectionOrder;
 			
 
-		bool disableTouchMarkers	= c.disableTouchMarkers;
 
 		bool
 			emuWithKeys				= c.emuWithKeys;
@@ -244,9 +243,7 @@ public class SuperTouchZoneInspector : TouchControlInspectorBase
 
 		if (InspectorUtils.BeginIndentedSection(new GUIContent("Touch Zone Settings"), ref this.settingsFoldedOut))
 			{
-			disableTouchMarkers = EditorGUILayout.ToggleLeft(new GUIContent("Disable touch markers", "Disable emulated touch markers in the Editor Play Mode."),
-				disableTouchMarkers);
-
+			
 			maxFingers = CFGUI.IntSlider(new GUIContent("Max finger number", "Maximal number of fingers allowed at the same time."), 
 				maxFingers, 1, ControlFreak2.SuperTouchZone.MAX_FINGERS, 120);
 
@@ -515,7 +512,6 @@ public class SuperTouchZoneInspector : TouchControlInspectorBase
 
 
 		if ((maxFingers				!= c.maxFingers) ||
-			(disableTouchMarkers		!= c.disableTouchMarkers) ||
 			(touchSmoothing			!= c.touchSmoothing) ||
 			(strictMultiTouchTime	!= c.strictMultiTouchTime) ||
 			(strictMultiTouch		!= c.strictMultiTouch) ||
@@ -561,8 +557,7 @@ public class SuperTouchZoneInspector : TouchControlInspectorBase
 			{
 			CFGUI.CreateUndo("CF2 Touch Zone modification", c);
 
-			c.disableTouchMarkers				= disableTouchMarkers;
-			c.maxFingers							= maxFingers;
+			c.maxFingers						= maxFingers;
 			c.strictMultiTouchTime				= strictMultiTouchTime;
 			c.strictMultiTouch					= strictMultiTouch;
 			c.freezeTwistWhenTooClose			= freezeTwistWhenTooClose;

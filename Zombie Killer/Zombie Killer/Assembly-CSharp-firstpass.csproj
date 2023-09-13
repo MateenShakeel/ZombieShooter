@@ -62,7 +62,6 @@
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\ProfileBanks\BuiltInGamepadProfileBankWebGL.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Wizards\SuperTouchZoneWizard.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\InputBindings\TouchGestureStateBinding.cs" />
-    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\ProfileBanks\BuiltInGamepadProfileBankXboxOne.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\GamepadNotifier\GamepadNotifier.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\TouchControlPanelUnityUiAddOn.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\GamepadProfileBank.cs" />
@@ -123,7 +122,6 @@
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\TouchControlPanel.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\TouchSplitter.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\UI-Helpers\IgnoreGraphicRaycasts.cs" />
-    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\ProfileBanks\BuiltInGamepadProfileBankStadia.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\ProfileBanks\BuiltInGamepadProfileBankWP8.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\TouchControlInspectors\TouchSplitterInspector.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InspectorUtils\InputBindingInspectors.cs" />
@@ -185,7 +183,6 @@
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InputBindingInspectors\ScrollDeltaBindingInspector.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\JoystickState.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\TouchControls\DynamicTouchControl.cs" />
-    <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Gamepads\ProfileBanks\BuiltInGamepadProfileBankPS4.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Samples\Shared-Assets\Scripts\Helpers\AudioIgnoreListenerPauseAndVolume.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\InputBindings\DigitalBinding.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor-Scripts\Inspectors\InputBindingInspectors\MousePositionBindingInspector.cs" />
@@ -213,6 +210,14 @@
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Utils\CFGizmos.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\InputBindings\JoystickStateBinding.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\DisablingConditionSet.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Plugins\Control-Freak-2\Control-Freak-2-ReadMe.txt" />
+    <None Include="Assets\Plugins\Control-Freak-2\Shaders\Sprites-Additive.shader" />
+    <None Include="Assets\Plugins\Control-Freak-2\Samples\Demo-CFR\CFR-Demo-Installation-Guide.txt" />
+    <None Include="Assets\Plugins\Control-Freak-2\Shaders\Sprites-HardLight.shader" />
+    <None Include="Assets\Plugins\Control-Freak-2\Shaders\Sprites-SoftLight.shader" />
+    <None Include="Assets\Plugins\Control-Freak-2\Samples\Shared-Assets\Fonts\FH-RedFive WTT\license.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
