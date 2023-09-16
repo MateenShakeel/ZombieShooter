@@ -318,7 +318,7 @@ public class akimboShooter : MonoBehaviour {
 
 		
 		
-			UIHandler.Instance.UpdateAmmoText();
+			//UIHandler.Instance.UpdateAmmoText();
 
 		
 		

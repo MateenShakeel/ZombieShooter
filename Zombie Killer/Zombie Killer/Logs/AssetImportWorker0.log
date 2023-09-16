@@ -15,7 +15,7 @@ C:/Users/Mateen/Documents/GitHub/ZombieShooter/Zombie Killer/Zombie Killer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49774
+57036
 Successfully changed project path to: C:/Users/Mateen/Documents/GitHub/ZombieShooter/Zombie Killer/Zombie Killer
 C:/Users/Mateen/Documents/GitHub/ZombieShooter/Zombie Killer/Zombie Killer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Mateen/Documents/GitHub/ZombieShooter/Zombie Killer/Zombie Killer
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12584] Host "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 2801413408 [EditorId] 2801413408 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0V5ECB3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3464] Host "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 311478042 [EditorId] 311478042 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0V5ECB3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12584] Host "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 2801413408 [EditorId] 2801413408 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0V5ECB3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3464] Host "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 311478042 [EditorId] 311478042 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0V5ECB3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 677.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 694.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -67,50 +67,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.028221 seconds.
+Registered in 0.315254 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 2618 ms
-Refreshing native plugins compatible for Editor in 810.81 ms, found 2 plugins.
+Android Extension - Scanning For ADB Devices 530 ms
+Refreshing native plugins compatible for Editor in 64.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.857 seconds
+- Completed reload, in 13.054 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6865ms)
-		BeginReloadAssembly (297ms)
+	ReloadAssembly (13055ms)
+		BeginReloadAssembly (9587ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (8ms)
-		EndReloadAssembly (6289ms)
-			LoadAssemblies (288ms)
-			RebuildTransferFunctionScriptingTraits (2ms)
-			SetupTypeCache (382ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (2640ms)
+			LoadAssemblies (9571ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1589ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (155ms)
-			SetupLoadedEditorAssemblies (5517ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (864ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3106ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (811ms)
-				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (1205ms)
-				ProcessInitializeOnLoadMethodAttributes (386ms)
+				InitializePlatformSupportModulesInManaged (610ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.233315 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 4.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Registered in 2.866731 seconds.

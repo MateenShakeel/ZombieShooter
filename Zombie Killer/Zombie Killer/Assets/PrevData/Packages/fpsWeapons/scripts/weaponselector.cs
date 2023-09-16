@@ -84,7 +84,7 @@ public class weaponselector : MonoBehaviour
 		//{
 
 		//}
-        currentweapon = 1;
+        currentweapon = GameManager.Instance.weaponSelected;
 
 
 		Invoke(nameof(EquipWeapon), 0.3f);
