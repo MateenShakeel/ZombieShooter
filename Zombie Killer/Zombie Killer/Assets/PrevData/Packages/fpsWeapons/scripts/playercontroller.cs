@@ -358,7 +358,6 @@ public class playercontroller : MonoBehaviour {
 
 			if (ControlFreak2.CF2Input.GetButton ("Fire2") && canrun && canrun2 || ismovingforward) 
 			{
-				Debug.Log("fklfnfnklfnfklnflnfklfnlfnlfnflfnlfnlfnlfnflnfl");
 				speed = runspeed;
 				running = false;
 				
@@ -502,7 +501,7 @@ public class playercontroller : MonoBehaviour {
 	
 	public void Damage (float damage) 
 	{
-        SoundManager.instance.PlayVocal(AudioClipsSource.Instance.zombieAttack);
+        //SoundManager.instance.PlayVocal(AudioClipsSource.Instance.zombieAttack);
         camerarotate cameracontroller = recoilCamera.GetComponent<camerarotate>();
 		
 		InGameProperties.Instance.IndicatorArrow(BulletScript.dir);
@@ -530,7 +529,7 @@ public class playercontroller : MonoBehaviour {
 		int a = Random.Range(0, 10);
 
 		if(a > 6)
-			SoundManager.instance.PlayEffect(AudioClipsSource.Instance.playerHurt);
+			//SoundManager.instance.PlayEffect(AudioClipsSource.Instance.playerHurt);
         hitpoints = hitpoints - damage;
 	}
 	

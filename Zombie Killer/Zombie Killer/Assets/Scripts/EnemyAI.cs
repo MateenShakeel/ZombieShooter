@@ -47,10 +47,7 @@ public class EnemyAI : MonoBehaviour
 
     #region SINGLETON
     public static EnemyAI instance;
-    public GameObject[] PlayerPower;
-    public int RedomIndex;
-    public Image HealthBar;
-    public GameData Gdata;
+
     private void Awake()
     {
         if (instance == null)
@@ -63,8 +60,7 @@ public class EnemyAI : MonoBehaviour
 
     private void Start()
     {
-        Target = GameplayHandler.Instance.FPSPlayer.transform;
-        Player = GameplayHandler.Instance.FPSPlayer.GetComponent<playercontroller>();
+
 
         rigidbody = GetComponent<Rigidbody>();
         agent = GetComponent<NavMeshAgent>();
@@ -88,7 +84,7 @@ public class EnemyAI : MonoBehaviour
             //agent.SetDestination(Target.position);
             distanceFromPlayer = Vector3.Distance(transform.position, Target.position);
 
-            if (distanceFromPlayer > 2f)
+            if (distanceFromPlayer > 2f && distanceFromPlayer <= 6f)
             {
                 //Debug.Log("Chasing");
                 enemystates = EnemyStates.Chasing;
@@ -129,19 +125,7 @@ public class EnemyAI : MonoBehaviour
         {
             if (attackTimer > 3)
             {
-                if (GameManager.Instance.IsTutorialScence)
-                {
-                    Player.Damage(Random.Range(0, 0));
-
-                }
-                else
-                {
-                    Player.Damage(Random.Range(5, 10));
-                    //Debug.Log("HasAttack");
-                    attackTimer = 0;
-                }
-
-
+                Player.Damage(Random.Range(5, 10));
             }
 
         }
@@ -150,7 +134,7 @@ public class EnemyAI : MonoBehaviour
     public void TakeDamage(float damage)
     {
 
-        SoundManager.instance.PlayVocal(AudioClipsSource.Instance.zombiePain);
+        // SoundManager.instance.PlayVocal(AudioClipsSource.Instance.zombiePain);
 
         int hitEffectAnimationChance = Random.Range(0, 10);
         if (hitEffectAnimationChance > 5)
@@ -168,7 +152,7 @@ public class EnemyAI : MonoBehaviour
         {
             enemystates = EnemyStates.Dead;
             OnDead();
-           
+
         }
     }
 
@@ -180,35 +164,25 @@ public class EnemyAI : MonoBehaviour
 
     public void OnDead()
     {
-        if (!chk)
-        {
-            chk = true;
+        
             agent.speed = 0f;
             canWander = false;
             agent.SetDestination(this.gameObject.transform.position);
             animator.SetBool("Isdead", true);
-            EnableRagdoll(true);
             gameObject.tag = "Untagged";
             gameObject.layer = 0;
             animator.SetBool("IsRunning", false);
             animator.SetBool("IsAttack", false);
-            Invoke(nameof(IncreaseKillCount), 1f);
-            SoundManager.instance.PlayEffect(AudioClipsSource.Instance.zombieDie);
             Destroy(gameObject, 1.5f);
-            
-            PlayerPower[RedomIndex].transform.position = transform.position;
-            PlayerPower[RedomIndex].SetActive(true);
+
+
             //GamePlayHandlerFreeMode.Instance.RemoveAtEnemyList();
             Debug.Log("Counter");
 
 
         }
-    }
+    
 
-    void IncreaseKillCount()
-    {
-        GameplayHandler.Instance.KillHandler();   
-    }
 
     public Collider[] allCollider;
 
