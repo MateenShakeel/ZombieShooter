@@ -212,6 +212,7 @@
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Internal\DisablingConditionSet.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\Plugins\Control-Freak-2\Control-Freak-2-ReadMe.txt" />
     <None Include="Assets\Plugins\Control-Freak-2\Shaders\Sprites-Additive.shader" />
     <None Include="Assets\Plugins\Control-Freak-2\Samples\Demo-CFR\CFR-Demo-Installation-Guide.txt" />

@@ -489,7 +489,7 @@ namespace uzAI
             currentZombieState = ZombieStates.Die;
 
 
-            GameplayHandler.Instance.KillHandler();
+           // GameplayHandler.Instance.KillHandler();
             //            SoundController.instance.PlayFromPool(AudioType.BodyShot);
             //          InGameProperties.Instance.BodyShotEvent();
             //        InGameProperties.Instance.KillIndicatorOn();

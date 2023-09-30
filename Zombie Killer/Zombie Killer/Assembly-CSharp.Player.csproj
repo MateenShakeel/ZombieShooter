@@ -77,7 +77,6 @@
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\arrow.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_TV_PlanetMars.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_FX_Dot_Circle.cs" />
-    <Compile Include="Assets\Particles\Hyperbit Arsenal\Demo\Scripts\HyperbitButtonScript.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_SplitScreen3D.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_DarkerColor.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Blend.cs" />
@@ -96,13 +95,14 @@
     <Compile Include="Assets\UGUIMiniMap\Content\Scripts\Runtime\UI\bl_MiniMapMaskHandler.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Color_Chromatic_Plus.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_TV_MovieNoise.cs" />
+    <Compile Include="Assets\Particles\Voxel Arsenal\Demo\Scripts\VoxelTarget.cs" />
     <Compile Include="Assets\UGUIMiniMap\Example\Standard Assets\Utility\bl_LerpControlledBob.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_EyesVision_1.cs" />
-    <Compile Include="Assets\Particles\Hyperbit Arsenal\Scripts\HyperbitLightFade.cs" />
     <Compile Include="Assets\PrevData\BattleRoyaleScripts\RewardedMenu.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Twist_Square.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Dissipation.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Wave_Horizontal.cs" />
+    <Compile Include="Assets\Particles\Voxel Arsenal\Scripts\VoxelRotation.cs" />
     <Compile Include="Assets\PrevData\Packages\Easy Indicators\Scripts\Utilities\IndicatorDistanceTracker.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\flamethrower.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_TV_VHS.cs" />
@@ -125,11 +125,13 @@
     <Compile Include="Assets\PrevData\Packages\Zombie Artificial Intelligence\Turret Content\Turret\TurretProjectile.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Tilt_Shift.cs" />
     <Compile Include="Assets\PrevData\BattleRoyaleScripts\SfxEnable.cs" />
+    <Compile Include="Assets\Particles\Voxel Arsenal\Demo\Scripts\VoxelOrbit.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_TV_LED.cs" />
     <Compile Include="Assets\Scripts\GameData.cs" />
     <Compile Include="Assets\PrevData\Packages\Tactical Shooter AI\Tactical AI\Csharp\Helper Scripts\DismembermentScript.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Noise_TV_3.cs" />
     <Compile Include="Assets\PrevData\Packages\Tactical Shooter AI\Tactical AI\Csharp\AI Behaviour Scripts\TargetScript.cs" />
+    <Compile Include="Assets\Particles\Voxel Arsenal\Scripts\VoxelBeamStatic.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\ImpactAudio.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_TV_Old.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Glow_Glow_Color.cs" />
@@ -139,7 +141,6 @@
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_TV_Videoflip.cs" />
     <Compile Include="Assets\PrevData\Packages\Zombie Artificial Intelligence\Healthbar.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Pixelisation_DeepOilPaintHQ.cs" />
-    <Compile Include="Assets\Particles\Hyperbit Arsenal\Demo\Scripts\HyperbitLoopScript.cs" />
     <Compile Include="Assets\PrevData\BattleRoyaleScripts\CharacterRotate.cs" />
     <Compile Include="Assets\PrevData\Packages\Tactical Shooter AI\Tactical AI\Csharp\AI Behaviour Scripts\CoverFinderScript.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Dream2.cs" />
@@ -148,6 +149,7 @@
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Glasses_On_5.cs" />
     <Compile Include="Assets\PrevData\BattleRoyaleScripts\PunchHit.cs" />
     <Compile Include="Assets\PrevData\Packages\Easy Indicators\Scripts\Utilities\IndicatorTargetCamera.cs" />
+    <Compile Include="Assets\_Scripts\WeatherSelectionHandler.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Lut_Simple.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Aspiration.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_NewGlitch6.cs" />
@@ -183,6 +185,7 @@
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_FX_DigitalMatrixDistortion.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Colors_Adjust_PreFilters.cs" />
     <Compile Include="Assets\UGUIMiniMap\Content\Scripts\Runtime\Base\bl_MiniMapIconBase.cs" />
+    <Compile Include="Assets\Scripts\CampaignMode.cs" />
     <Compile Include="Assets\ExtremeFXvol1\Source\Scripts\EFX_ParticleSetting.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_CellShading2.cs" />
     <Compile Include="Assets\Scripts\Sounds\AudioManager.cs" />
@@ -198,6 +201,7 @@
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_PinLight.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_BluePrint.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_TV_WideScreenHV.cs" />
+    <Compile Include="Assets\Particles\Voxel Arsenal\Scripts\VoxelSoundSpawn.cs" />
     <Compile Include="Assets\ExtremeFXvol1\Source\Scripts\EFX_Randommove.cs" />
     <Compile Include="Assets\PrevData\Packages\Zombie Artificial Intelligence\Scripts\Utilities\AudioTargetEnabler.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_FX_Hexagon_Black.cs" />
@@ -220,6 +224,7 @@
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Crystal.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_FX_8bits.cs" />
     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+    <Compile Include="Assets\_Scripts\DifficultySelectionHandler.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Pixelisation_Dot.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Lut_TestMode.cs" />
     <Compile Include="Assets\UGUIMiniMap\Content\Scripts\Runtime\UI\bl_MiniMapOverlay.cs" />
@@ -227,7 +232,6 @@
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Movie.cs" />
     <Compile Include="Assets\PrevData\BattleRoyaleScripts\Sound\AudioPool.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_FX_Drunk.cs" />
-    <Compile Include="Assets\Particles\Hyperbit Arsenal\Scripts\HyperbitBeamScript.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blizzard.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Sharpen_Sharpen.cs" />
     <Compile Include="Assets\PrevData\Packages\Easy Indicators\Demos\Demo3 - Stress Test\Scripts\CameraController.cs" />
@@ -254,17 +258,16 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Lens.cs" />
     <Compile Include="Assets\PrevData\BattleRoyaleScripts\TeamDeathManager.cs" />
-    <Compile Include="Assets\Particles\Hyperbit Arsenal\Demo\Scripts\HyperbitLoadSceneOnClick.cs" />
     <Compile Include="Assets\PrevData\BattleRoyaleScripts\Zombies Manager\LevelManager.cs" />
     <Compile Include="Assets\UGUIMiniMap\Content\Scripts\Runtime\Base\bl_MapPointerBase.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_ShockWaveManual.cs" />
     <Compile Include="Assets\UGUIMiniMap\Content\Scripts\Runtime\UI\bl_MiniMapUI.cs" />
     <Compile Include="Assets\PrevData\BattleRoyaleScripts\Sound\SoundController.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\RPG.cs" />
+    <Compile Include="Assets\Particles\Voxel Arsenal\Demo\Scripts\VoxelLoopScript.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_NewGlitch3.cs" />
     <Compile Include="Assets\PrevData\Packages\Tactical Shooter AI\Tactical AI\Command\Command Scripts\SquadMemberSetter.cs" />
     <Compile Include="Assets\PrevData\BattleRoyaleScripts\LoadLevel.cs" />
-    <Compile Include="Assets\Particles\Hyperbit Arsenal\Demo\Scripts\HyperbitProjectileScript.cs" />
     <Compile Include="Assets\PrevData\Packages\Tactical Shooter AI\Tactical AI\Csharp\Helper Scripts\AdjustPriorityScript.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_FX_Screens.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Luminosity.cs" />
@@ -279,6 +282,7 @@
     <Compile Include="Assets\PrevData\Packages\Tactical Shooter AI\Tactical AI\Csharp\Parkour\TacticalNavLink.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_PhotoshopFilters.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Warp2.cs" />
+    <Compile Include="Assets\Scripts\AmmoPickup.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_TV_Artefact.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_LighterColor.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Atmosphere_Rain_Pro.cs" />
@@ -307,7 +311,6 @@
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Colors_Adjust_FullColors.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Lines.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Color_BrightContrastSaturation.cs" />
-    <Compile Include="Assets\Particles\Hyperbit Arsenal\Demo\Scripts\HyperbitFireProjectile.cs" />
     <Compile Include="Assets\UGUIMiniMap\Content\Scripts\Runtime\Misc\bl_MapPointer.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Color_GrayScale.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_TV_WideScreenCircle.cs" />
@@ -317,21 +320,24 @@
     <Compile Include="Assets\UGUIMiniMap\Example\Scripts\bl_RandomBot.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Twist.cs" />
     <Compile Include="Assets\UGUIMiniMap\Content\Scripts\Runtime\Misc\bl_MiniMapPlayer.cs" />
-    <Compile Include="Assets\Particles\Hyperbit Arsenal\Demo\Scripts\HyperbitDragMouseOrbit.cs" />
     <Compile Include="Assets\ExtremeFXvol1\Source\Scripts\EFX_Spawner.cs" />
     <Compile Include="Assets\PrevData\Packages\Easy Indicators\Demos\Demo1- 2D Fighter\Scripts\PlayerMotor2D.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\machinegun.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Oculus_NightVision1.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Toon.cs" />
+    <Compile Include="Assets\Scripts\Zombie Scripts\ZombieSpawnerSurvivalMode.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Lighten.cs" />
     <Compile Include="Assets\UGUIMiniMap\Content\Scripts\Internal\Scriptables\bl_MiniMapIconData.cs" />
+    <Compile Include="Assets\Scripts\Zombie Scripts\BodyPartDamage.cs" />
     <Compile Include="Assets\UGUIMiniMap\Content\Scripts\Runtime\Misc\bl_MiniMapDragArea.cs" />
+    <Compile Include="Assets\_Scripts\FirstLoadingHandler.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Water_Drop.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\grenadepickup.cs" />
     <Compile Include="Assets\PrevData\BattleRoyaleScripts\Sound\AudioType.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_LinearBurn.cs" />
     <Compile Include="Assets\ExtremeFXvol1\Source\Scripts\EFX_Randomrotation.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Pixel_Pixelisation.cs" />
+    <Compile Include="Assets\Particles\Voxel Arsenal\Demo\Scripts\VoxelProjectileScript.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Colors_Brightness.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\meleeWeapon.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\shell.cs" />
@@ -361,7 +367,6 @@
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_FX_Hexagon.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\sniper.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Regular.cs" />
-    <Compile Include="Assets\Particles\Hyperbit Arsenal\Scripts\HyperbitRotation.cs" />
     <Compile Include="Assets\PrevData\Packages\Tactical Shooter AI\Tactical AI\Csharp\Helper Scripts\DynamicObjectScript.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_3D_BlackHole.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Paper2.cs" />
@@ -382,6 +387,7 @@
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Colors_NewPosterize.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_FX_Spot.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Antialiasing_FXAA.cs" />
+    <Compile Include="Assets\_Scripts\MainMenuHandler.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_ColorDodge.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_TV_Chromatical.cs" />
     <Compile Include="Assets\PrevData\BattleRoyaleScripts\Analyticsmanager.cs" />
@@ -430,12 +436,14 @@
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\shotgun.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Glasses_On.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\TriggerWeapon.cs" />
+    <Compile Include="Assets\Scripts\HealthPickup.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_TV_Noise.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_AAA_SuperHexagon.cs" />
     <Compile Include="Assets\PrevData\Packages\Tactical Shooter AI\Tactical AI\Csharp\Helper Scripts\SoundMaker.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Subtract.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Saturation.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Oculus_NightVision3.cs" />
+    <Compile Include="Assets\_Scripts\LevelSelectionScript.cs" />
     <Compile Include="Assets\UGUIMiniMap\Content\Scripts\Runtime\UI\bl_MiniMapCompass.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_SplitScreen.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Glasses_On_3.cs" />
@@ -443,6 +451,7 @@
     <Compile Include="Assets\PrevData\Packages\Easy Indicators\Scripts\IndicatorViewer.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Desert.cs" />
     <Compile Include="Assets\PrevData\Packages\Tactical Shooter AI\Tactical AI\Csharp\AI Behaviour Scripts\CustomAIBehaviour.cs" />
+    <Compile Include="Assets\Particles\Voxel Arsenal\Demo\Scripts\VoxelButtonScript.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Classic_ThermalVision.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_NewCellShading.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_AAA_BloodOnScreen.cs" />
@@ -459,6 +468,7 @@
     <Compile Include="Assets\PrevData\Packages\Zombie Artificial Intelligence\DynamicBarricades.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_FishEye.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Colors_BleachBypass.cs" />
+    <Compile Include="Assets\_Scripts\EnvironmentSelectionHandler.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_3D_Matrix.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_NewGlitch2.cs" />
     <Compile Include="Assets\UGUIMiniMap\Content\Scripts\Internal\Util\bl_MiniMapUtils.cs" />
@@ -495,15 +505,18 @@
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Edge_BlackLine.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_SoftLight.cs" />
     <Compile Include="Assets\ExtremeFXvol1\Source\Scripts\EFX_Explosion.cs" />
+    <Compile Include="Assets\Particles\Voxel Arsenal\Demo\Scripts\VoxelBeamScript.cs" />
+    <Compile Include="Assets\Particles\Voxel Arsenal\Scripts\VoxelLightFade.cs" />
+    <Compile Include="Assets\Particles\Voxel Arsenal\Demo\Scripts\VoxelFireProjectile.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\playerrotate.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Color_YUV.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Colors_HUE_Rotate.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Therma.cs" />
     <Compile Include="Assets\PrevData\Packages\Zombie Artificial Intelligence\Scripts\uzAI State Machine Behaviours\ZombieTurnOnSpot.cs" />
+    <Compile Include="Assets\Particles\Voxel Arsenal\Demo\Scripts\VoxelSceneSelect.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Radial_Fast.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\Lightflicker.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Edge_Golden.cs" />
-    <Compile Include="Assets\Scripts\GameplayHandler.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Stripe.cs" />
     <Compile Include="Assets\UGUIMiniMap\Content\Scripts\Runtime\Base\bl_MiniMapInputBase.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Colors_RgbClamp.cs" />
@@ -518,6 +531,7 @@
     <Compile Include="Assets\PrevData\BattleRoyaleScripts\InGameProperties.cs" />
     <Compile Include="Assets\Scripts\Sounds\SoundManager.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_TV_ARCADE_Fast.cs" />
+    <Compile Include="Assets\_Scripts\GunSelectionHandler.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\grenade.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_TV_ARCADE.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\smoothLookAt.cs" />
@@ -541,9 +555,11 @@
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Aura.cs" />
     <Compile Include="Assets\PrevData\Packages\Zombie Artificial Intelligence\Scripts\Utilities\WaypointsPath.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\throwgrenade.cs" />
+    <Compile Include="Assets\_Scripts\ModeSelectionScript.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Color_Sepia.cs" />
     <Compile Include="Assets\PrevData\Packages\Tactical Shooter AI\Tactical AI\Csharp\AI Behaviour Scripts\SoundScript.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_EXTRA_Rotation.cs" />
+    <Compile Include="Assets\Scripts\GameplayHandler.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_3D_Fog_Smoke.cs" />
     <Compile Include="Assets\PrevData\Packages\Tactical Shooter AI\Tactical AI\Csharp\Damage Scripts\ExplosionScript.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_BlueScreen.cs" />
@@ -576,6 +592,7 @@
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Oculus_NightVision2.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Manga.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_TV_Tiles.cs" />
+    <Compile Include="Assets\_Scripts\LoadingHandler.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Pixelisation_OilPaint.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Color_Noise.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_AAA_Blood_Plus.cs" />
@@ -586,22 +603,31 @@
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Atmosphere_Rain_Pro_3D.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Particles\Voxel Arsenal\Shaders\VoxelLitSurface.shader" />
+    <None Include="Assets\BuildReport\CustomBuildScriptExample.txt" />
     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
     <None Include="Assets\Demigiant\DemiLib\Core\DemiLib.dll" />
     <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
     <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
     <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\BuildReport\README.txt" />
+    <None Include="Assets\BuildReport\BuildReportToolOptions.xml" />
+    <None Include="Assets\Particles\Hyperbit Arsenal\Shader\BumpDistort.shader" />
     <None Include="Assets\Particles\FXVille_BloodPack\Shaders\FXVille Blood 2018.shader" />
     <None Include="Assets\Demigiant\DOTween\DOTween43.dll" />
+    <None Include="Assets\BuildReport\license.txt" />
     <None Include="Assets\Demigiant\DOTween\DOTween.dll" />
+    <None Include="Assets\BuildReport\VERSION.txt" />
     <None Include="Assets\Demigiant\DemiLib\Core\DemiLib.xml" />
     <None Include="Assets\Demigiant\DOTween\DOTween46.dll" />
     <None Include="Assets\Demigiant\DOTweenPro\DOTweenPro.dll" />
     <None Include="Assets\Demigiant\DOTweenPro\readme.txt" />
     <None Include="Assets\Demigiant\DOTweenPro\DOTweenPro.XML" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\Particles\Voxel Arsenal\Shaders\VoxelRimLightSolid.shader" />
     <None Include="Assets\Demigiant\DOTween\DOTween50.dll" />
+    <None Include="Assets\Particles\Hyperbit Arsenal\Hyperbit Arsenal Readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

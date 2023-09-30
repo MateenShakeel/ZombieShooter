@@ -27,13 +27,7 @@ public class GameManager : MonoBehaviour
     public int levelSelected;
     public int weaponSelected;
     
-    [Header("Scene Changes")]
-    public bool isGameplay;
-    public bool isMainMenu;
-    public bool isLevelSelection;
-    public bool isSurvialMode;
-    public bool isWeaponSelection;
-    public bool IsTutorialScence;
+   
     [Header("Game Link")]
     public string GameLink;
 
@@ -42,22 +36,11 @@ public class GameManager : MonoBehaviour
     public bool RewardedForDog;
     public bool RewardedFor2xDamage;
     
+   
+
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
-        
-        RewardedForHealth = false;
-        RewardedForBullets = false;
-        RewardedForDog = false;
-        RewardedFor2xDamage = false;
-    }
-
-    public void ClearSceneBool()
-    {
-        isGameplay = false;
-        isMainMenu = false;
-        isLevelSelection = false;
-        isWeaponSelection = false;
     }
 
 

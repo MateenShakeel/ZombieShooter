@@ -7,28 +7,19 @@ public class AudioClipsSource : MonoBehaviour
 
     [Header("Music Clips")]
     public AudioClip MainMenuClip;
-    public AudioClip GamePlayClip;
-    public AudioClip GamePlayCipPolice;
-    public AudioClip Particle;
+    public AudioClip[] GamePlayClips;
+
     public AudioClip GenericButtonClick;
     public AudioClip LockButtonClick;
     public AudioClip LevelFailedClip;
     public AudioClip LevelSuccessClip;
-    public AudioClip ButtonSound;
-    public AudioClip PowerButton;
-    public AudioClip DogSound;
-    
-    
-    public AudioClip ImpactHit;
 
+    public AudioClip ZombiesSpawningClip;
+    public AudioClip playerDeath;
 
-    [Header("Gameplay SFX")]
-    public AudioClip zombieAttack;
-    public AudioClip zombiePain;
-    public AudioClip zombieDie;
-    public AudioClip zombieIdle;
-    public AudioClip playerDie;
-    public AudioClip playerHurt;
+    [Header("Gun Sounds")]
+    public AudioClip[] GunSounds;
+    
 
 
     void Awake()

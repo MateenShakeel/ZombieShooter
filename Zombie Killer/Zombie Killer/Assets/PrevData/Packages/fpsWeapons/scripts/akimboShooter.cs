@@ -248,7 +248,7 @@ public class akimboShooter : MonoBehaviour {
 				canreload = false;
 				if ((ControlFreak2.CF2Input.GetButton("Fire2") || ControlFreak2.CF2Input.GetAxis ("Fire1")>0.1) && !myAudioSource.isPlaying)
 				{
-                    UIHandler.Instance.OpenWatchVideoPanelTime(1f);
+                    //UIHandler.Instance.OpenWatchVideoPanelTime(1f);
                     myAudioSource.PlayOneShot(emptySound);
 				}
 				else
@@ -318,7 +318,7 @@ public class akimboShooter : MonoBehaviour {
 
 		
 		
-			//UIHandler.Instance.UpdateAmmoText();
+			UIHandler.Instance.UpdateAmmoText();
 
 		
 		

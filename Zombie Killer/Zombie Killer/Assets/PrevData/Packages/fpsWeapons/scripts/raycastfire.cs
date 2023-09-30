@@ -201,11 +201,11 @@ public class raycastfire : MonoBehaviour {
 				hit.transform.SendMessageUpwards("Damage", damage, SendMessageOptions.DontRequireReceiver);
 				hit.collider.gameObject.GetComponent<explosive>().Damage(damage);
 			}
-			else if (hit.collider.gameObject.GetComponent<EnemyAI>()) //Zombie State Manager
+			else if (hit.collider.gameObject.GetComponent<BodyPartDamage>()) //Zombie State Manager
 			{
 				hit.transform.SendMessageUpwards("Damage", damage, SendMessageOptions.DontRequireReceiver);
 				Instantiate(ZombieBlood, hit.point, Quaternion.Euler(-90, 0, 0));
-				hit.collider.gameObject.GetComponent<EnemyAI>().TakeDamage(damage);
+				hit.collider.gameObject.GetComponent<BodyPartDamage>().DealDamage(damage);
 				Debug.Log("Zombie Damage State");
 			}
 		}

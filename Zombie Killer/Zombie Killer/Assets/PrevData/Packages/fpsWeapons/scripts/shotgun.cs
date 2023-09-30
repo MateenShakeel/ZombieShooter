@@ -336,7 +336,8 @@ public class shotgun : MonoBehaviour {
 	{
 		if (!myanimation.isPlaying)
 		{
-			float randomZ = Random.Range (-0.05f,-0.01f);
+            UIHandler.Instance.UpdateAmmoText();
+            float randomZ = Random.Range (-0.05f,-0.01f);
 			//float randomY = Random.Range (-0.1f,0.1f);
 
 			
@@ -358,6 +359,7 @@ public class shotgun : MonoBehaviour {
 	
 	void reload()
 	{
+		UIHandler.Instance.UpdateAmmoText();
 		if (!myanimation.isPlaying && canreload && !isreloading ) {
 			StartCoroutine(setreload ());
 			InGameProperties.Instance.ReloadStart();

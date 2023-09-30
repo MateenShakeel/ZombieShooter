@@ -1,176 +1,119 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.Playables;
 using UnityEngine;
 
 public class GameplayHandler : MonoBehaviour
 {
-
     #region SINGLETON
     public static GameplayHandler Instance;
     private void Awake()
     {
         if (Instance == null)
+        {
             Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
         else
+        {
             Destroy(gameObject);
+        }
     }
     #endregion
 
-    public GameData GData;
+    [Header("Player Controller")]
+    public Transform _playerController;
 
-    [Header("Player")]
-    public GameObject FPSPlayer;
+    [Header("Modes")]
+    public Mode[] Modes;
 
-    [Header("CF2")]
-    public GameObject CF2Canvas;
-    public GameObject mainControls;
 
-    [Header("UGUIMiniMap")]
-    public GameObject miniMap;
+    Mode currentMode;
+    SurvivalLevel currentSurvivalLevel;
+    CampaignLevel currentCampaignLevel;
 
-    [Header("Variables")]
-    public int currentKills;
-
-    [Header("Levels")]
-    public Levels[] levels;
-
-    [Header("Audio Sources")]
-    public AudioSource[] aS;
-
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        GameManager.Instance.ClearSceneBool();
-        SoundManager.instance.StopBackgroundMusic(AudioClipsSource.Instance.MainMenuClip);
-        SoundManager.instance.PlayBackgroundMusic(AudioClipsSource.Instance.GamePlayClip);
-        StartLevel();
-        HandleSound();
-        
-        //GameManager.Instance.GamePlayStart();
-        //GameManager.Instance.GamePlayGA()
+        Time.timeScale = 1;
+        SoundManager.instance.PlayBackgroundMusic(AudioClipsSource.Instance.GamePlayClips[0]);
+        InitializeVariables();
+        StartGame();
     }
 
-    public void HandleSound()
+    private void InitializeVariables()
     {
-        if(!GData.soundEnabled)
-        {
-            foreach(AudioSource aS in aS)
-            {
-                aS.enabled = false;
-            }
-        }
-    }
-
-    void ActivateCutCam()
-    {
-        miniMap.SetActive(false);
-        CF2Canvas.GetComponent<Canvas>().enabled = false;
-        levels[GameManager.Instance.levelSelected].StartingCutCam.SetActive(true);
-        float time = (float)levels[GameManager.Instance.levelSelected].StartingCutCam.GetComponent<PlayableDirector>().duration;
-        Invoke("DeactivateCutCam", time);
-    }
-
-
-    void DeactivateCutCam()
-    {
-        
-        levels[GameManager.Instance.levelSelected].StartingCutCam.SetActive(false);
-        miniMap.SetActive(true);
-        CF2Canvas.GetComponent<Canvas>().enabled = true;
-        StartGameplay();
-    }
-
-    void StartLevel()
-    {
-        if (levels[GameManager.Instance.levelSelected].StartingCutCam)
-            ActivateCutCam();
+        currentMode = Modes[GameManager.Instance.SelectedMode];
+        if(GameManager.Instance.SelectedMode == 0)
+            currentSurvivalLevel = currentMode.SurvivalLevels[GameManager.Instance.levelSelected];
         else
-            StartGameplay();
+            currentCampaignLevel = currentMode.CampaignLevels;
+
     }
 
-    //Start the Gameplay by activating player and enemies
-    void StartGameplay()
+    void StartGame()
     {
-        UIHandler.Instance.OpenObjectivePanel();
-        ActivateZombies();
-        ActivatePlayer();
+        if (GameManager.Instance.SelectedMode == 0)
+            StartSurvivalMode();
+        else
+            StartCampaignMode();
+
     }
 
-    //Activate Player and Set Position and Rotation
-    void ActivatePlayer()
+    private void StartSurvivalMode()
     {
-        FPSPlayer.transform.position = levels[GameManager.Instance.levelSelected].playerPosition.position;
-        FPSPlayer.transform.rotation = levels[GameManager.Instance.levelSelected].playerPosition.rotation;
-        FPSPlayer.SetActive(true);
+        //Activating Player And Setting Transform
+        _playerController.transform.position = currentSurvivalLevel.PlayerPosition.transform.position;
+        _playerController.transform.rotation = currentSurvivalLevel.PlayerPosition.transform.rotation;
+        _playerController.gameObject.SetActive(true);
 
-        UIHandler.Instance.canUpdateText = true;
-        //weaponselector.Instance.ABC();
-    }
 
-    //Activate the Zombies
-    void ActivateZombies()
-    {
-        for (int i = 0; i < levels[GameManager.Instance.levelSelected].zombies.Length; i++)
+        //Activating Wave Spawners
+        for (int i = 0; i < currentSurvivalLevel.ZombieSpawners.Length; i++)
         {
-            levels[GameManager.Instance.levelSelected].zombies[i].SetActive(true);
+            currentSurvivalLevel.ZombieSpawners[i].SetActive(true);
+        }
+
+        //Activating Collider Props
+        for (int i = 0; i < currentSurvivalLevel.ColliderProps.Length; i++)
+        {
+            currentSurvivalLevel.ColliderProps[i].SetActive(true);
         }
     }
 
-    //Increment Kills And Then Check For Level Complete
-    public void KillHandler()
+    private void StartCampaignMode()
     {
-        currentKills++;
-        if(currentKills >= levels[GameManager.Instance.levelSelected].totalKills)
-        {
-            //Level Complete
-            //FPSPlayer.SetActive(false);
-            mainControls.SetActive(false);
-            UIHandler.Instance.YouWonPanel.SetActive(true);
-            SoundManager.instance.PlayEffect(AudioClipsSource.Instance.ImpactHit);
+        _playerController.GetComponent<playercontroller>().runspeed = 10;
+        //Activating Player And Setting Transform
+        _playerController.transform.position = currentCampaignLevel.PlayerPosition.transform.position;
+        _playerController.transform.rotation = currentCampaignLevel.PlayerPosition.transform.rotation;
+        _playerController.gameObject.SetActive(true);
 
-        }
+
+        currentCampaignLevel.CampaignMode.SetActive(true);
     }
 
-    public void GoToNextLevel()
-    {
-        SoundManager.instance.PlayEffect(AudioClipsSource.Instance.GenericButtonClick);
-        Time.timeScale = 1;
-        GameManager.Instance.levelSelected++;
-        GameManager.Instance.isGameplay = true;
-        GameManager.Instance.LoadScene("Loading");
-    }
-
-    public void RestartLevel()
-    {
-        SoundManager.instance.PlayEffect(AudioClipsSource.Instance.GenericButtonClick);
-        Time.timeScale = 1;
-        GameManager.Instance.isGameplay = true;
-        GameManager.Instance.LoadScene("Loading");
-    }
-
-    public void GoToMainMenu()
-    {
-        SoundManager.instance.PlayEffect(AudioClipsSource.Instance.GenericButtonClick);
-        Time.timeScale = 1;
-     //   GameManager.Instance.isSurvialMode = false;
-
-        GameManager.Instance.isMainMenu = true;
-        GameManager.Instance.LoadScene("Loading");
-        
-        GameManager.Instance.HomeBtnAd();
-    }
 }
-
 
 [System.Serializable]
-public class Levels
+public class Mode
 {
-    public string levelName;
-    public int cashToGive;
-    public int totalKills;
-    public string objectiveText;
-    public Transform playerPosition;
-    public GameObject StartingCutCam;
-    public GameObject[] zombies;
+    public SurvivalLevel[] SurvivalLevels;
+    public CampaignLevel CampaignLevels;
 }
+
+[System.Serializable]
+public class SurvivalLevel
+{
+    public Transform PlayerPosition;
+    public GameObject[] ZombieSpawners;
+    public GameObject[] ColliderProps;
+
+}
+
+[System.Serializable]
+public class CampaignLevel
+{
+    public Transform PlayerPosition;
+    public GameObject CampaignMode;
+
+}
+

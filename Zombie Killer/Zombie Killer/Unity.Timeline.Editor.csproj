@@ -72,8 +72,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Items\ClipItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\TimelineSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Undo\UndoExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Manipulators\AddDelete\IAddDeleteItemMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Utilities\MarkerModifier.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Manipulators\AddDelete\IAddDeleteItemMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Window\TimelineWindow_Duration.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Tooltip.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Manipulators\Sequence\SelectAndMoveItem.cs" />

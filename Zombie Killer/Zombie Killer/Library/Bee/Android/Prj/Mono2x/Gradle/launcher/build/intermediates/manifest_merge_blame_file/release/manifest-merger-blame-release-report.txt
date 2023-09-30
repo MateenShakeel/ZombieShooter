@@ -1,0 +1,205 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.ShootingEnvironment"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-67
+21-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:22-64
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:5-66
+22-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:22-63
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-79
+23-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:22-76
+24
+25    <uses-feature
+25-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-20:36
+26        android:name="android.hardware.sensor.accelerometer"
+26-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:9-61
+27        android:required="false" />
+27-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:9-33
+28    <uses-feature
+28-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:5-23:36
+29        android:name="android.hardware.touchscreen"
+29-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-52
+30        android:required="false" />
+30-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-33
+31    <uses-feature
+31-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:5-26:36
+32        android:name="android.hardware.touchscreen.multitouch"
+32-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-63
+33        android:required="false" />
+33-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-33
+34    <uses-feature
+34-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-29:36
+35        android:name="android.hardware.touchscreen.multitouch.distinct"
+35-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-72
+36        android:required="false" />
+36-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-33
+37
+38    <uses-permission android:name="com.android.vending.BILLING" />
+38-->[:billing-4.0.0:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b81ff7d1ee2a78392f1d1cb4089981c8\billing-4.0.0\AndroidManifest.xml:10:5-67
+38-->[:billing-4.0.0:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b81ff7d1ee2a78392f1d1cb4089981c8\billing-4.0.0\AndroidManifest.xml:10:22-64
+39
+40    <application
+40-->C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-121
+41        android:banner="@drawable/app_banner"
+41-->C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:81-118
+42        android:extractNativeLibs="true"
+42-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:9-41
+43        android:icon="@mipmap/app_icon"
+43-->C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+44        android:isGame="true"
+44-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-30
+45        android:label="@string/app_name" >
+45-->C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+46        <activity
+46-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:9-52:20
+47            android:name="com.unity3d.player.UnityPlayerActivity"
+47-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-66
+48            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+48-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-194
+49            android:hardwareAccelerated="false"
+49-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-48
+50            android:launchMode="singleTask"
+50-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-44
+51            android:resizeableActivity="false"
+51-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-47
+52            android:screenOrientation="fullUser"
+52-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-49
+53            android:theme="@style/UnityThemeSelector" >
+53-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-54
+54            <intent-filter>
+54-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-47:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:17-69
+55-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:17-77
+57-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:27-74
+58                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+58-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-86
+58-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:27-83
+59            </intent-filter>
+60
+61            <meta-data
+61-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:13-51:40
+62                android:name="unityplayer.UnityActivity"
+62-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:17-57
+63                android:value="true" />
+63-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:17-37
+64        </activity>
+65
+66        <meta-data
+66-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:9-56:33
+67            android:name="unity.splash-mode"
+67-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-45
+68            android:value="0" />
+68-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:13-30
+69        <meta-data
+69-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:9-59:36
+70            android:name="unity.splash-enable"
+70-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-47
+71            android:value="True" />
+71-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:13-33
+72        <meta-data
+72-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:9-62:36
+73            android:name="unity.launch-fullscreen"
+73-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-51
+74            android:value="True" />
+74-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-33
+75        <meta-data
+75-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:9-65:37
+76            android:name="unity.allow-resizable-window"
+76-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-56
+77            android:value="False" />
+77-->[:unityLibrary] C:\Users\Mateen\Documents\GitHub\ZombieShooter\Zombie Killer\Zombie Killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-34
+78
+79        <activity
+79-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:13:9-17:74
+80            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+80-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:14:13-74
+81            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+81-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:15:13-170
+82            android:hardwareAccelerated="true"
+82-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:16:13-47
+83            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+83-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:17:13-71
+84        <activity
+84-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:18:9-22:86
+85            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+85-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:19:13-85
+86            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+86-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:20:13-170
+87            android:hardwareAccelerated="true"
+87-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:21:13-47
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+88-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:22:13-83
+89        <activity
+89-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:23:9-27:86
+90            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+90-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:24:13-93
+91            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+91-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:25:13-170
+92            android:hardwareAccelerated="false"
+92-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:26:13-48
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+93-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:27:13-83
+94        <activity
+94-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:28:9-32:74
+95            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+95-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:29:13-82
+96            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+96-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:30:13-170
+97            android:hardwareAccelerated="false"
+97-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:31:13-48
+98            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+98-->[:UnityAds:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:32:13-71
+99
+100        <meta-data
+100-->[:billing-4.0.0:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b81ff7d1ee2a78392f1d1cb4089981c8\billing-4.0.0\AndroidManifest.xml:13:9-15:37
+101            android:name="com.google.android.play.billingclient.version"
+101-->[:billing-4.0.0:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b81ff7d1ee2a78392f1d1cb4089981c8\billing-4.0.0\AndroidManifest.xml:14:13-73
+102            android:value="4.0.0" />
+102-->[:billing-4.0.0:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b81ff7d1ee2a78392f1d1cb4089981c8\billing-4.0.0\AndroidManifest.xml:15:13-34
+103
+104        <activity
+104-->[:billing-4.0.0:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b81ff7d1ee2a78392f1d1cb4089981c8\billing-4.0.0\AndroidManifest.xml:17:9-21:75
+105            android:name="com.android.billingclient.api.ProxyBillingActivity"
+105-->[:billing-4.0.0:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b81ff7d1ee2a78392f1d1cb4089981c8\billing-4.0.0\AndroidManifest.xml:18:13-78
+106            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+106-->[:billing-4.0.0:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b81ff7d1ee2a78392f1d1cb4089981c8\billing-4.0.0\AndroidManifest.xml:19:13-96
+107            android:exported="false"
+107-->[:billing-4.0.0:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b81ff7d1ee2a78392f1d1cb4089981c8\billing-4.0.0\AndroidManifest.xml:20:13-37
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[:billing-4.0.0:] C:\Users\Mateen\.gradle\caches\transforms-2\files-2.1\b81ff7d1ee2a78392f1d1cb4089981c8\billing-4.0.0\AndroidManifest.xml:21:13-72
+109    </application>
+110
+111</manifest>

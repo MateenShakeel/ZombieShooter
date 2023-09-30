@@ -331,7 +331,7 @@ public class sniper : MonoBehaviour {
 				{
 					if (!myAudioSource.isPlaying)
 					{
-                        UIHandler.Instance.OpenWatchVideoPanelTime(1f);
+                        //UIHandler.Instance.OpenWatchVideoPanelTime(1f);
                         myAudioSource.PlayOneShot(emptySound);
 					}
 				}

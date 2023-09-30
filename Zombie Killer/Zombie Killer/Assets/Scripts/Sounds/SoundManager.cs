@@ -81,8 +81,8 @@ public class SoundManager : SingletonSounds<SoundManager> {
 
 	public bool MusicEnabled {
 		set { 
-			_musicEnabled = value;
-			_BGAudioSource.enabled = _musicEnabled;
+			_soundEnabled = value;
+			_BGAudioSource.enabled = _soundEnabled;
 //			_FGAudioSource.enabled = _soundEnabled;
 		}
 		get { 
@@ -91,9 +91,9 @@ public class SoundManager : SingletonSounds<SoundManager> {
 	}
 	public bool EffectsEnabled {
 		set { 
-			_effectEnabled = value;
+			_soundEnabled = value;
 //			_BGAudioSource.enabled = _soundEnabled;
-			_FGAudioSource.enabled = _effectEnabled;
+			_FGAudioSource.enabled = _soundEnabled;
 		}
 		get { 
 			return _soundEnabled;
@@ -141,7 +141,7 @@ public class SoundManager : SingletonSounds<SoundManager> {
 
 	public void PlayEffect (AudioClip _clip)
 	{
-		if (_effectEnabled & _clip != null) {
+		if (_soundEnabled & _clip != null) {
 			_FGAudioSource.PlayOneShot (_clip);
 		}
 	}
@@ -172,7 +172,7 @@ public class SoundManager : SingletonSounds<SoundManager> {
 
 	public void PlayBackgroundMusic (AudioClip _clip)
 	{
-		if (_musicEnabled && _clip != null) {
+		if (_soundEnabled && _clip != null) {
 			_BGAudioSource.clip = _clip;
 			_BGAudioSource.loop = true;
 			_BGAudioSource.Play ();
@@ -180,7 +180,7 @@ public class SoundManager : SingletonSounds<SoundManager> {
 	}
 	public void StopBackgroundMusic(AudioClip _clip)
 	{
-		if (_musicEnabled && _clip != null)
+		if (_soundEnabled && _clip != null)
 		{
 			_BGAudioSource.clip = _clip;
 			_BGAudioSource.loop = true;

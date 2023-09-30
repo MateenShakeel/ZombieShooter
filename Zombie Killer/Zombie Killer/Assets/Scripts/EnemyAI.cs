@@ -13,7 +13,11 @@ public class EnemyAI : MonoBehaviour
     //[SerializeField] int wayPointIndex;
     [SerializeField] Transform Target;
     [SerializeField] playercontroller Player;
+    [SerializeField] GameObject _healthPickup;
+    [SerializeField] GameObject _ammoPickup;
     public float health;
+    public float nearDistance;
+    public float farDistance;
 
     Animator animator;
     Rigidbody rigidbody;
@@ -33,6 +37,8 @@ public class EnemyAI : MonoBehaviour
     bool canWander = true;
     bool chk;
 
+    float soundCounter;
+
     enum EnemyStates
     {
         Patrolling,
@@ -41,6 +47,11 @@ public class EnemyAI : MonoBehaviour
         Dead,
         Pain
     };
+
+    [Header("Audio Clips")]
+    public AudioClip Attack;
+    public AudioClip Die;
+    public AudioClip Idle1;
 
 
     [SerializeField] EnemyStates enemystates;
@@ -65,6 +76,8 @@ public class EnemyAI : MonoBehaviour
         rigidbody = GetComponent<Rigidbody>();
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
+        Target = GameplayHandler.Instance._playerController;
+        Player = GameplayHandler.Instance._playerController.GetComponent<playercontroller>();
 
         //for (int i = 0; i < GamePlayHandler.instance.gameLevel[GameManager.instance.levelSelected].EnemyWaypoints.Length; i++)
         //{
@@ -75,21 +88,30 @@ public class EnemyAI : MonoBehaviour
         //agent.SetDestination(CurrenTarget.position);
     }
 
+
     private void Update()
     {
+        soundCounter += Time.deltaTime;
 
         if (!isPain)
         {
+
+            if(soundCounter >= Random.Range(5 , 10))
+            {
+                SoundManager.instance.PlayEffect(Idle1);
+                soundCounter = 0;
+            }
             attackTimer += Time.deltaTime;
             //agent.SetDestination(Target.position);
             distanceFromPlayer = Vector3.Distance(transform.position, Target.position);
 
-            if (distanceFromPlayer > 2f && distanceFromPlayer <= 6f)
+            if (distanceFromPlayer > nearDistance && distanceFromPlayer <= farDistance)
             {
+
                 //Debug.Log("Chasing");
                 enemystates = EnemyStates.Chasing;
             }
-            else if (distanceFromPlayer <= 2f)
+            else if (distanceFromPlayer <= nearDistance)
             {
                 //Debug.Log("Attacking");
                 enemystates = EnemyStates.Attacking;
@@ -105,44 +127,51 @@ public class EnemyAI : MonoBehaviour
             }
             if (enemystates == EnemyStates.Attacking)
             {
-
                 agent.SetDestination(transform.position);
                 animator.SetBool("IsRunning", false);
-                animator.SetBool("IsAttack", true);
-                AttackPlayer();
+                if (attackTimer > 3)
+                {
+                    attackTimer = 0;
+                    animator.SetBool("IsAttack", true);
+                    AttackPlayer();
+                }
 
             }
-        }
+            if (enemystates == EnemyStates.Pain)
+            {
+                Debug.Log("PAIN");
+                agent.isStopped = true;
+                isPain = true;
+                animator.SetBool("isPain", true);
+                Invoke(nameof(PainEnded), 1f);
+            }
 
+        }
     }
 
 
     public void AttackPlayer()
     {
-
-
         if (Player.hitpoints > 0)
         {
-            if (attackTimer > 3)
-            {
-                Player.Damage(Random.Range(5, 10));
-            }
-
+                SoundManager.instance.PlayEffect(Attack);
+                Player.Damage(Random.Range(1, 3));
         }
     }
 
-    public void TakeDamage(float damage)
+    public float TakeDamage(float damage)
     {
 
         // SoundManager.instance.PlayVocal(AudioClipsSource.Instance.zombiePain);
 
-        int hitEffectAnimationChance = Random.Range(0, 10);
-        if (hitEffectAnimationChance > 5)
-        {
-            animator.SetBool("isPain", true);
-            isPain = true;
-            Invoke(nameof(PainEnded), 0.3f);
-        }
+        //int hitEffectAnimationChance = Random.Range(0, 10);
+        //if (hitEffectAnimationChance > 5)
+        //{
+        //    agent.isStopped = true;
+        //    isPain = true;
+        //    animator.SetBool("isPain", true);
+        //    Invoke(nameof(PainEnded),1f);
+        //}
 
         if (health > 0)
         {
@@ -154,34 +183,54 @@ public class EnemyAI : MonoBehaviour
             OnDead();
 
         }
+        return health;
     }
 
     public void PainEnded()
     {
         isPain = false;
         animator.SetBool("isPain", false);
+        enemystates = EnemyStates.Chasing;
+        agent.isStopped = false;
     }
 
     public void OnDead()
     {
-        
-            agent.speed = 0f;
-            canWander = false;
-            agent.SetDestination(this.gameObject.transform.position);
-            animator.SetBool("Isdead", true);
-            gameObject.tag = "Untagged";
-            gameObject.layer = 0;
-            animator.SetBool("IsRunning", false);
-            animator.SetBool("IsAttack", false);
-            Destroy(gameObject, 1.5f);
+
+        agent.isStopped = true;
+        agent.speed = 0f;
+        canWander = false;
+        agent.SetDestination(this.gameObject.transform.position);
+        animator.SetBool("Isdead", true);
+        gameObject.tag = "Untagged";
+        gameObject.layer = 0;
+        animator.SetBool("IsRunning", false);
+        animator.SetBool("IsAttack", false);
+        Destroy(gameObject, 1f);
+        SoundManager.instance.PlayEffect(Attack);
+
+        SpawnPickup();
 
 
-            //GamePlayHandlerFreeMode.Instance.RemoveAtEnemyList();
-            Debug.Log("Counter");
+    }
 
+    void SpawnPickup()
+    {
+        Vector3 pos = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
 
+        int randomizer = Random.Range(0, 10);
+        if (randomizer < 5)
+        {
+            var pickup = Instantiate(_healthPickup, pos, _healthPickup.transform.rotation);
+            pickup.transform.parent = null;
         }
-    
+        else
+        {
+            var pickup = Instantiate(_ammoPickup, pos, _ammoPickup.transform.rotation);
+            pickup.transform.parent = null;
+        }
+    }
+
 
 
     public Collider[] allCollider;

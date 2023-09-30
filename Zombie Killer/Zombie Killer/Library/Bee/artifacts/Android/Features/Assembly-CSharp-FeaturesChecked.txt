@@ -1,0 +1,3 @@
+UnityEngine.Network
+UnityEngine.Handheld::Vibrate
+UnityEngine.Application::get_internetReachability

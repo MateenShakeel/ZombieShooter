@@ -59,6 +59,7 @@ public class weaponselector : MonoBehaviour
 
 	public Transform pickupGrenade;
 	public Transform pickupHealth;
+	public GameObject ammoParticle;
 	
 	public int[] weaponsMagSize;
 	
@@ -89,6 +90,23 @@ public class weaponselector : MonoBehaviour
 
 		Invoke(nameof(EquipWeapon), 0.3f);
 		
+	}
+
+	public void AmmoPickup()
+	{
+        if (currentweapon == 1)
+		{
+			Weapons[currentweapon].GetComponent<akimboShooter>().ammo += 100;
+		}
+		else if (currentweapon == 5)
+        {
+			Weapons[currentweapon].GetComponent<shotgun>().ammo += 50;
+		}
+		else
+		{
+            Weapons[currentweapon].GetComponent<genericShooter>().ammo += 200;
+        }
+		ammoParticle.SetActive(true);
 	}
 
 	void EquipWeapon()

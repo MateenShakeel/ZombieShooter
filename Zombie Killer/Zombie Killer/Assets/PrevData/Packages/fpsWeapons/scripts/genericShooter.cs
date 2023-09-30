@@ -371,10 +371,11 @@ public class genericShooter : MonoBehaviour
             }
 
 
-           // UIHandler.Instance.UpdateAmmoText();
+           UIHandler.Instance.UpdateAmmoText();
         }
 
     }
+
 
 
 
@@ -392,8 +393,8 @@ public class genericShooter : MonoBehaviour
             myanimation.Play(reloadAnim.name);
             InGameProperties.Instance.ReloadStart();
 
-            UIHandler.Instance.UpdateAmmoText();
-            UIHandler.Instance.ReloadBulletUpdate();
+           UIHandler.Instance.UpdateAmmoText();
+            //UIHandler.Instance.ReloadBulletUpdate();
 
 
             Debug.Log("Dddddddddd");
