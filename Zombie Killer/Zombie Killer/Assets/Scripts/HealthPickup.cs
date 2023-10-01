@@ -8,7 +8,7 @@ public class HealthPickup : MonoBehaviour
 
     private void Start()
     {
-        Destroy(gameObject, 3f);
+        Destroy(gameObject, 15f);
     }
 
     private void OnTriggerEnter(Collider other)
