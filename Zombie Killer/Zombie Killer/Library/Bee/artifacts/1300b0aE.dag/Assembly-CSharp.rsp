@@ -855,6 +855,7 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GameplayHandler.cs"
 "Assets/Scripts/HealthPickup.cs"
+"Assets/Scripts/ObjectActivator.cs"
 "Assets/Scripts/Sounds/AudioClipsSource.cs"
 "Assets/Scripts/Sounds/AudioManager.cs"
 "Assets/Scripts/Sounds/SingletonSounds.cs"

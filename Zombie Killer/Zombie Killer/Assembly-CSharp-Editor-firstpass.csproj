@@ -59,6 +59,27 @@
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor\ScriptConverter\ScriptConverter.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor\ScriptConverter\ConvertedScript.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor\ScriptConverter\ScriptBackup.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\EffectAbstractBaseEditor.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\EffectFlickerEditor.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\DynamicOcclusionRaycastingEditor.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\TriggerZoneEditor.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\OnBuildPreprocess.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\ConfigOverrideEditor.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\EditorStrings.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\EditorExtensions.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\OnBuildPostprocess.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\EditorCommon.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\OnBuildTargetChanged.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\VolumetricLightBeamEditor.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\ConfigEditor.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\FoldableHeader.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\TargetList.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\EditorData.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\EffectPulseEditor.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\VolumetricDustParticlesEditor.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\SkewingHandleEditor.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\DynamicOcclusionAbstractBaseEditor.cs" />
+    <Compile Include="Assets\Plugins\VolumetricLightBeam\Editor\DynamicOcclusionDepthBufferEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -538,7 +538,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 2.75
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -2740,7 +2740,7 @@ MonoBehaviour:
   _bodyPart: 2
   _enemyAI: {fileID: 8407981513454991276}
   _bodyPartProp: {fileID: 3224840744631110802}
-  _bloodParticle: {fileID: 0}
+  _bloodParticle: {fileID: 7771962345798001160}
   _impactParticle: {fileID: 163734, guid: 0a5ac034133a7654a8565697adff5548, type: 3}
 --- !u!1 &9045548393279674720
 GameObject:
@@ -3453,6 +3453,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecf2d6723e2fcfa42b92fd2c93484a64, type: 3}
+--- !u!1 &7771962345798001160 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 168944, guid: ecf2d6723e2fcfa42b92fd2c93484a64,
+    type: 3}
+  m_PrefabInstance: {fileID: 7771962345798169080}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7771962345798329924 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 497596, guid: ecf2d6723e2fcfa42b92fd2c93484a64,

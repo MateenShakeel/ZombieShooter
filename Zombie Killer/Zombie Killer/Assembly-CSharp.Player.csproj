@@ -395,6 +395,7 @@
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_NightVisionFX.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Edge_Edge_filter.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Tunnel.cs" />
+    <Compile Include="Assets\Scripts\ObjectActivator.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_FX_Ascii.cs" />
     <Compile Include="Assets\Scripts\Sounds\AudioClipsSource.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Hue.cs" />

@@ -21,6 +21,8 @@ public class GameplayHandler : MonoBehaviour
 
     [Header("Player Controller")]
     public Transform _playerController;
+    public Camera PlayerCamera;
+    public GameObject PlayerVolumetricLight;
 
     [Header("Modes")]
     public Mode[] Modes;
@@ -71,6 +73,7 @@ public class GameplayHandler : MonoBehaviour
             currentSurvivalLevel.ZombieSpawners[i].SetActive(true);
         }
 
+
         //Activating Collider Props
         for (int i = 0; i < currentSurvivalLevel.ColliderProps.Length; i++)
         {
@@ -80,13 +83,16 @@ public class GameplayHandler : MonoBehaviour
 
     private void StartCampaignMode()
     {
-        _playerController.GetComponent<playercontroller>().runspeed = 10;
+        
+        _playerController.GetComponent<playercontroller>().runspeed = 5;
         //Activating Player And Setting Transform
         _playerController.transform.position = currentCampaignLevel.PlayerPosition.transform.position;
         _playerController.transform.rotation = currentCampaignLevel.PlayerPosition.transform.rotation;
+        PlayerCamera.farClipPlane = 750;
+        
+        RenderSettings.fog = true;
         _playerController.gameObject.SetActive(true);
-
-
+        PlayerVolumetricLight.SetActive(true);
         currentCampaignLevel.CampaignMode.SetActive(true);
     }
 

@@ -5,69 +5,77 @@ using UnityEngine;
 
 public class CampaignMode : MonoBehaviour
 {
-    public GameObject[] Spawners;
+   
     public GameObject[] Walls;
-    public GameObject[] Tracks;
-    public float waveTime;
-    public Text timeText;
-    public GameObject objectivePanel;
+    public GameObject Zombies;
+    //public GameObject[] Tracks; 
+    //public GameObject[] Spawners;
+    //public float waveTime;
+    //public Text timeText;
+    //public GameObject objectivePanel;
 
-    bool canCount = true;
+    //bool canCount = true;
 
 
-    float timer;
+    //float timer;
 
-    int index = 0;
+    //int index = 0;
 
     private void Start()
     {
-        timer = waveTime;
-        timeText.transform.parent.gameObject.SetActive(true);
-        Spawners[index].SetActive(true);
-        Walls[index].SetActive(true);
+        //timer = waveTime;
+        //timeText.transform.parent.gameObject.SetActive(true);
+        //Spawners[index].SetActive(true);
+        //Walls[index].SetActive(true);
 
+
+        foreach(GameObject walls in Walls)
+        {
+            walls.SetActive(true);
+        }
+        Zombies.SetActive(true);
     }
 
     private void Update()
     {
-        if(canCount)
-        {
-            timer -=  Time.deltaTime;
-            timeText.text = Mathf.RoundToInt(timer).ToString() + "s";
+        //if(canCount)
+        //{
+        //    timer -=  Time.deltaTime;
+        //    timeText.text = Mathf.RoundToInt(timer).ToString() + "s";
             
-            if(timer <= 0)
-            {
-                timer = 0;
-                StartCoroutine(StartNextPoint());
-            }
-        }
+        //    if(timer <= 0)
+        //    {
+        //        timer = 0;
+        //        StartCoroutine(StartNextPoint());
+        //    }
+        //}
         
     }
 
-    IEnumerator StartNextPoint()
-    {
+    //IEnumerator StartNextPoint()
+    //{
 
-        canCount = false;
-        timeText.text = "";
-        Walls[index].SetActive(false);
-        Spawners[index].SetActive(false);
-        Tracks[index].SetActive(true);
-        objectivePanel.SetActive(true);
-        index++;
+    //    canCount = false;
+    //    timeText.text = "";
+    //    Walls[index].SetActive(false);
+    //    Spawners[index].SetActive(false);
+    //    Tracks[index].SetActive(true);
+    //    objectivePanel.SetActive(true);
+    //    index++;
 
-        if (index == Walls.Length)
-            index = 0;
+    //    if (index == Walls.Length)
+    //        index = 0;
 
 
-        yield return new WaitForSeconds(30f);
+    //    yield return new WaitForSeconds(30f);
 
-        objectivePanel.SetActive(false);
-        Spawners[index].SetActive(true);
-        Walls[index].SetActive(true);
-        Tracks[index].SetActive(false);
+    //    objectivePanel.SetActive(false);
+    //    Spawners[index].SetActive(true);
+    //    Walls[index].SetActive(true);
+    //    Tracks[index].SetActive(false);
 
-        timer = waveTime;
-        canCount = true;
-    }
+    //    timer = waveTime;
+    //    canCount = true;
+    //}
 
 }
