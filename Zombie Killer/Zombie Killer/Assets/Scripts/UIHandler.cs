@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.Events;
+
 public class UIHandler : MonoBehaviour
 {
     public GameData GData;
@@ -135,9 +137,22 @@ public class UIHandler : MonoBehaviour
         GameManager.Instance.LoadScene("MainMenu");
     }
 
+    public void NextLevel()
+    {
+        SoundManager.instance.PlayEffect(AudioClipsSource.Instance.GenericButtonClick);
+        Time.timeScale = 1;
+        GameManager.Instance.levelSelected++;
+        GameManager.Instance.LoadScene("Gameplay");
+
+    }
+
     public void OpenLevelCompletePanel()
     {
+        if (GameManager.Instance.levelSelected == 9)
+            nextLevelButton.SetActive(false);
         levelCompletePanel.SetActive(true);
+        GData.levelsUnlocked = GameManager.Instance.levelSelected + 1;
+        PersistentDataManager.instance.SaveData();
     } 
 
     public void OpenLevelFailPanelTime(float time)

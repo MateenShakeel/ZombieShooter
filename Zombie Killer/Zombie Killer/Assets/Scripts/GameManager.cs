@@ -44,71 +44,7 @@ public class GameManager : MonoBehaviour
     }
 
 
-    #region IN APPS
-
-    public void BuyCashSucces(int amount)
-    {
-        GData.cash += amount;
-        //MainMenuHandler.instance.BuyCashSuccess();
-        //PersistentDataManager.instance.SaveGameData();
-    }
-
-    public void BuyGoldSuccess(int amount)
-    {
-        GData.gold += amount;
-        //MainMenuHandler.instance.BuyGoldSuccess();
-        //PersistentDataManager.instance.SaveGameData();
-    }
-
-    public void BuyUnlockEverythingSuccess()
-    {
-        for (int i = 0; i < GData.Weapons.Length; i++)
-        {
-            GData.Weapons[i].isUnlocked = true;
-        }
-
-        for (int i = 0; i < GData.Skins.Length; i++)
-        {
-            GData.Skins[i].isUnlocked = true;
-        }
-
-        GData.levelsUnlocked = 9;
-        GData.isUnlockEverything = true;
-        GData.RemoveAds = true;
-        GData.isUnlockGuns = true;
-        
-        //MainMenuHandler.instance.UnlockEverythingSuccess();
-        //PersistentDataManager.instance.SaveGameData();
-        HideBanners();
-    }
-
-    public void BuyUnlockGunsSuccess()
-    {
-        for (int i = 0; i < GData.Weapons.Length; i++)
-        {
-            GData.Weapons[i].isUnlocked = true;
-        }
-
-        for (int i = 0; i < GData.Skins.Length; i++)
-        {
-            GData.Skins[i].isUnlocked = true;
-        }
-
-        GData.isUnlockGuns = true;
-
-        //MainMenuHandler.instance.UnlockGunsSuccess();
-        //PersistentDataManager.instance.SaveGameData();
-    }
-
-    public void RemoveAdsSuccess()
-    {
-        GData.RemoveAds = true;
-        //MainMenuHandler.instance.RemoveAdsSuccess();
-        //PersistentDataManager.instance.SaveGameData();
-        
-        HideBanners();
-    }
-    #endregion
+   
 
     public void FirstLoadingStart()
     {

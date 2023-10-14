@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MyScenes/ModeSelection.unity
     guid: 463484af2407c814cadadfa1c410bb28
   - enabled: 1
+    path: Assets/Scenes/MyScenes/LevelSelection.unity
+    guid: 921d6c14bc623f54dbfcd1daf36a5ce3
+  - enabled: 1
     path: Assets/Scenes/MyScenes/GunSelection.unity
     guid: b3725f81572c58f44ba5104cace01db3
   - enabled: 1

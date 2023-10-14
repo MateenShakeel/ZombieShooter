@@ -17,92 +17,24 @@ MonoBehaviour:
   settingsChange: 0
   weapons: 0
   autoShoot: 0
-  cash: 0
-  gold: 0
-  musicEnabled: 1
-  soundEnabled: 1
   levelsUnlocked: 0
   firstTime: 1
-  IsTutorial: 0
   Weapons:
   - name: PDR
     isUnlocked: 1
     price: 0
-    fireRate: 7
-    accuracy: 6.5
-    damage: 6
-    reload: 7.5
-  - name: Dual Glock
-    isUnlocked: 0
-    price: 300
-    fireRate: 5
-    accuracy: 8
-    damage: 5
-    reload: 8
-  - name: QK - AI75
-    isUnlocked: 0
-    price: 600
-    fireRate: 5
-    accuracy: 6
-    damage: 7
-    reload: 6
-  - name: PDR
+  - name: Pistol
     isUnlocked: 0
     price: 0
-    fireRate: 7
-    accuracy: 6.5
-    damage: 6
-    reload: 7.5
-  - name: PDR
+  - name: QK
     isUnlocked: 0
     price: 0
-    fireRate: 7
-    accuracy: 6.5
-    damage: 6
-    reload: 7.5
-  - name: PDR
+  - name: Carbine
     isUnlocked: 0
     price: 0
-    fireRate: 7
-    accuracy: 6.5
-    damage: 6
-    reload: 7.5
-  - name: PDR
+  - name: SMG
     isUnlocked: 0
     price: 0
-    fireRate: 7
-    accuracy: 6.5
-    damage: 6
-    reload: 7.5
-  Skins:
-  - isUnlocked: 0
-    price: 500
-  - isUnlocked: 0
-    price: 1000
-  - isUnlocked: 0
-    price: 500
-  - isUnlocked: 0
-    price: 1000
-  - isUnlocked: 0
-    price: 500
-  - isUnlocked: 0
-    price: 1000
-  - isUnlocked: 0
-    price: 500
-  - isUnlocked: 0
-    price: 1000
-  - isUnlocked: 0
-    price: 500
-  - isUnlocked: 0
-    price: 1000
-  - isUnlocked: 0
-    price: 500
-  - isUnlocked: 0
-    price: 1000
-  - isUnlocked: 0
-    price: 500
-  - isUnlocked: 0
-    price: 1000
-  isUnlockEverything: 0
-  isUnlockGuns: 0
-  RemoveAds: 0
+  - name: Shotgun
+    isUnlocked: 0
+    price: 0

@@ -45,28 +45,20 @@ public class FirstLoadingHandler : MonoBehaviour
 
     public void FirstTime()
     {
-        //if (GData.isFirst)
-        //{
-        //   // GameManager.instance.firstTimeGameplay = true;
-        //    GData.isFirst = false;
-        //    //GData.isTutorial = true;
-        //    GData.coins = 0;
-        //    //GData.isEverythingUnlocked = false;
-        //    //GData.isLevelsUnlocked = false;
-        //    //GData.musicStatus = true;
-        //    //GData.soundStatus = true;
-        //    //GData.removeAds = false;
-        //    //GData.levelsCompleted = 0;
-        //    GData.levelsUnlocked = 1;
-        //    GData.guns[0].isUnlocked = true;
-        //    GData.guns[1].isUnlocked = true;
+        if (GData.firstTime)
+        {
+            // GameManager.instance.firstTimeGameplay = true;
+            GData.firstTime = false;
+            GData.levelsUnlocked = 0;
+            GData.Weapons[0].isUnlocked = true;
 
-        //    for (int i = 2; i < GData.guns.Length; i++)
-        //    {
-        //        GData.guns[i].isUnlocked = false;
-        //    }
 
-        //    PersistentDataManager.instance.SaveData();
-        //}
+            for (int i = 1; i < GData.Weapons.Length; i++)
+            {
+                GData.Weapons[i].isUnlocked = false;
+            }
+
+            PersistentDataManager.instance.SaveData();
+        }
     }
 }

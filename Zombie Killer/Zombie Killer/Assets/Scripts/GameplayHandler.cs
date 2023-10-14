@@ -46,8 +46,12 @@ public class GameplayHandler : MonoBehaviour
         if(GameManager.Instance.SelectedMode == 0)
             currentSurvivalLevel = currentMode.SurvivalLevels[GameManager.Instance.levelSelected];
         else
-            currentCampaignLevel = currentMode.CampaignLevels;
+            currentCampaignLevel = currentMode.CampaignLevels[GameManager.Instance.levelSelected];
 
+    }
+    public CampaignLevel GetCurrentCampaignLevel()
+    {
+        return currentCampaignLevel;
     }
 
     void StartGame()
@@ -83,17 +87,21 @@ public class GameplayHandler : MonoBehaviour
 
     private void StartCampaignMode()
     {
-        
-        _playerController.GetComponent<playercontroller>().runspeed = 5;
         //Activating Player And Setting Transform
         _playerController.transform.position = currentCampaignLevel.PlayerPosition.transform.position;
         _playerController.transform.rotation = currentCampaignLevel.PlayerPosition.transform.rotation;
-        PlayerCamera.farClipPlane = 750;
-        
-        RenderSettings.fog = true;
         _playerController.gameObject.SetActive(true);
-        PlayerVolumetricLight.SetActive(true);
-        currentCampaignLevel.CampaignMode.SetActive(true);
+        
+        PlayerCamera.farClipPlane = 750;
+
+        currentCampaignLevel.Props.SetActive(true);
+        currentCampaignLevel.KillCounter.SetActive(true);
+        _playerController.GetComponent<DistanceCalculator>().SetCanCalculate(true);
+        
+        foreach(GameObject zombie in currentCampaignLevel.Zombies)
+        {
+            zombie.SetActive(true);
+        }
     }
 
 }
@@ -102,7 +110,7 @@ public class GameplayHandler : MonoBehaviour
 public class Mode
 {
     public SurvivalLevel[] SurvivalLevels;
-    public CampaignLevel CampaignLevels;
+    public CampaignLevel[] CampaignLevels;
 }
 
 [System.Serializable]
@@ -117,8 +125,13 @@ public class SurvivalLevel
 [System.Serializable]
 public class CampaignLevel
 {
+    public string LevelName;
     public Transform PlayerPosition;
-    public GameObject CampaignMode;
+    public GameObject Props;
+    public GameObject KillCounter;
+    public GameObject[] Zombies;
+    public int Kills;
+    public int Distance;
 
 }
 

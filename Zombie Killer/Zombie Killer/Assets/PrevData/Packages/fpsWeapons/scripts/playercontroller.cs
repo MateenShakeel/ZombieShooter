@@ -35,7 +35,7 @@ public class playercontroller : MonoBehaviour
     [Space(5)]
     [Header("Player Movement Speed")]
     public float normalspeed = 0f;
-
+    public float sprintSpeed = 10f;
     public Slider MovementSpeedBar;
     public Text MoveSpeedValue;
 
@@ -272,6 +272,15 @@ public class playercontroller : MonoBehaviour
                 if (ControlFreak2.CF2Input.GetButtonDown("Crouch"))
                 {
                     crouchcheck();
+                }
+
+                if (ControlFreak2.CF2Input.GetButton("Sprint"))
+                {
+                    normalspeed = sprintSpeed;
+                }
+                else
+                {
+                    normalspeed = 5;
                 }
 
                 if (!crouching)

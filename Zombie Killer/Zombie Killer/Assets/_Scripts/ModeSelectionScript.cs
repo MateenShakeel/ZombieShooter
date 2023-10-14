@@ -32,7 +32,7 @@ public class ModeSelectionScript : MonoBehaviour
         GameManager.Instance.SelectedMode = 1;
         
         
-        GameManager.Instance.LoadScene("GunSelection");
+        GameManager.Instance.LoadScene("LevelSelection");
         
     }
 

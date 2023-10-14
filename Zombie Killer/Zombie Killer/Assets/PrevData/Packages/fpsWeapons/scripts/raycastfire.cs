@@ -9,7 +9,7 @@ public class raycastfire : MonoBehaviour {
 
 	public float force = 500f;
 	public float damage = 50f;
-	public float range = 100f;
+	public float range ;
 	
 	public LayerMask mask;
 	public int projectilecount = 1;

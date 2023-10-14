@@ -130,6 +130,7 @@
     <Compile Include="Assets\Scripts\GameData.cs" />
     <Compile Include="Assets\PrevData\Packages\Tactical Shooter AI\Tactical AI\Csharp\Helper Scripts\DismembermentScript.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Noise_TV_3.cs" />
+    <Compile Include="Assets\Scripts\PersistentDataManager\PersistentDataManager\PersistentDataManager.cs" />
     <Compile Include="Assets\PrevData\Packages\Tactical Shooter AI\Tactical AI\Csharp\AI Behaviour Scripts\TargetScript.cs" />
     <Compile Include="Assets\Particles\Voxel Arsenal\Scripts\VoxelBeamStatic.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\ImpactAudio.cs" />
@@ -262,6 +263,7 @@
     <Compile Include="Assets\UGUIMiniMap\Content\Scripts\Runtime\Base\bl_MapPointerBase.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_ShockWaveManual.cs" />
     <Compile Include="Assets\UGUIMiniMap\Content\Scripts\Runtime\UI\bl_MiniMapUI.cs" />
+    <Compile Include="Assets\Scripts\EnemyKillCounter.cs" />
     <Compile Include="Assets\PrevData\BattleRoyaleScripts\Sound\SoundController.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\RPG.cs" />
     <Compile Include="Assets\Particles\Voxel Arsenal\Demo\Scripts\VoxelLoopScript.cs" />
@@ -414,6 +416,7 @@
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_3D_Shield.cs" />
     <Compile Include="Assets\UGUIMiniMap\Content\Scripts\Internal\Enum\MiniMapEnums.cs" />
     <Compile Include="Assets\PrevData\Packages\fpsWeapons\scripts\playrandomsound.cs" />
+    <Compile Include="Assets\Scripts\DistanceCalculator.cs" />
     <Compile Include="Assets\PrevData\Packages\Tactical Shooter AI\Tactical AI\Command\Command Scripts\FlankingRoute.cs" />
     <Compile Include="Assets\Particles\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_EnhancedComics.cs" />
     <Compile Include="Assets\PrevData\BattleRoyaleScripts\Setting.cs" />

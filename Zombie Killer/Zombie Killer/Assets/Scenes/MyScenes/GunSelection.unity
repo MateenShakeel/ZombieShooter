@@ -645,11 +645,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 596a52178732d9d46ac874b6405c0d13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GData: {fileID: 0}
+  GData: {fileID: 11400000, guid: aa12ab24f84094600a1dd74552133765, type: 2}
   coins: {fileID: 0}
   backBtn: {fileID: 466191106}
   goBackBtn: {fileID: 0}
-  selectBtn: {fileID: 0}
+  selectBtn: {fileID: 941346620}
   forwardBtn: {fileID: 1886472866}
   pricePanel: {fileID: 0}
   buyBtn: {fileID: 0}

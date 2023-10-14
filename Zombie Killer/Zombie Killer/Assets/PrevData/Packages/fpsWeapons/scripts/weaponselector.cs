@@ -96,17 +96,17 @@ public class weaponselector : MonoBehaviour
 	{
         if (currentweapon == 1)
 		{
-			if(Weapons[currentweapon].GetComponent<akimboShooter>().ammo <=300)
+			if(Weapons[currentweapon].GetComponent<akimboShooter>().ammo <=200)
 				Weapons[currentweapon].GetComponent<akimboShooter>().ammo += 100;
 		}
 		else if (currentweapon == 5)
         {
-			if(Weapons[currentweapon].GetComponent<shotgun>().ammo <= 100)
+			if(Weapons[currentweapon].GetComponent<shotgun>().ammo <= 200)
 				Weapons[currentweapon].GetComponent<shotgun>().ammo += 50;
 		}
 		else
 		{
-		if(Weapons[currentweapon].GetComponent<genericShooter>().ammo <= 300)
+		if(Weapons[currentweapon].GetComponent<genericShooter>().ammo <= 200)
             Weapons[currentweapon].GetComponent<genericShooter>().ammo += 200;
         }
 		ammoParticle.SetActive(true);

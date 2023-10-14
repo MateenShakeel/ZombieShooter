@@ -20,9 +20,6 @@ public class LevelSelectionScript : MonoBehaviour
 
     private void Start()
     {
-        
-        //GameManager.instance.ResetConditions();
-        //text.text = GD.coins.ToString();
         Unlock_Levels();
     }
 
@@ -39,7 +36,9 @@ public class LevelSelectionScript : MonoBehaviour
     public void SelectedLevel(int level)
     {
         SoundManager.instance.PlayEffect(AudioClipsSource.Instance.GenericButtonClick);
-      ////  GameManager.instance.levelSelected = level;
+        int l = Random.Range(0, 4);
+        GameManager.Instance.levelSelected = l;
+        GameManager.Instance.LoadScene("GunSelection");
        // GameManager.instance.isEnvironmentSelection = true;
         //GameManager.instance.LoadScene("Loading");
         //selectButton.SetActive(true);
@@ -48,10 +47,9 @@ public class LevelSelectionScript : MonoBehaviour
 
     public void Unlock_Levels()
     {
-        for (int i = 0; i < GD.levelsUnlocked - 1 ; i++)
+        for (int i = 0; i < GD.levelsUnlocked  ; i++)
         {
             levelsLockedState[i].SetActive(false);
-
         }
     }
 

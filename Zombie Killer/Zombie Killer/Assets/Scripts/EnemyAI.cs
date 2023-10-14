@@ -211,6 +211,8 @@ public class EnemyAI : MonoBehaviour
 
         SpawnPickup();
 
+        if(GameManager.Instance.SelectedMode == 1)
+            EnemyKillCounter.Instance.IncrementKill();
 
     }
 

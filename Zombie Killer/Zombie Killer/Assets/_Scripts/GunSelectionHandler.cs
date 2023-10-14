@@ -140,6 +140,11 @@ public class GunSelectionHandler : MonoBehaviour
 
     void DisplayGunHandler(int index)
     {
+        if (!GData.Weapons[index].isUnlocked)
+            selectBtn.SetActive(false);
+        else
+            selectBtn.SetActive(true);
+
         if (index == 0)
         {
             guns[0].SetActive(true);
@@ -149,8 +154,6 @@ public class GunSelectionHandler : MonoBehaviour
             if (i == index)
             {
                 guns[i].SetActive(true);
-      
-
                 continue;
             }
             guns[i].SetActive(false);
