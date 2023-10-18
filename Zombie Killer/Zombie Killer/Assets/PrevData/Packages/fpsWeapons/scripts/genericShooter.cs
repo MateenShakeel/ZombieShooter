@@ -94,7 +94,7 @@ public class genericShooter : MonoBehaviour
     Animation myanimation;
 
     public Transform bulletTransform;
-    private float autoShootDistance;
+    public float autoShootDistance;
 
 
     private void Awake()
@@ -115,7 +115,7 @@ public class genericShooter : MonoBehaviour
         // myanimation.Stop();
         //Invoke(nameof(Onstart), 0.1f);
         Onstart();
-        autoShootDistance = PlayerPrefs.GetString("Mode") == "Zombie" ? 7f : Mathf.Infinity;
+        
     }
 
     RaycastHit hit;
@@ -157,7 +157,11 @@ public class genericShooter : MonoBehaviour
             //	}
 
             //}
-
+            if(hit.collider.gameObject.layer == 8)
+            {
+                if (GameplayHandler.Instance.IsAutoShoot)
+                    Fire();
+            }
             // Outline 
             if (hit.collider.CompareTag("HitBox") && hit.collider.gameObject.layer == 14)
             {

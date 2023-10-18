@@ -77,6 +77,22 @@ public class UIHandler : MonoBehaviour
         waveAlert.gameObject.GetComponent<DOTweenAnimation>().DOPlayForward();
     }
     
+    public void SelectAutoShoot(Text text)
+    {
+        if(GameplayHandler.Instance.IsAutoShoot)
+        {
+            GameplayHandler.Instance.IsAutoShoot = false;
+            text.text = "auto shoot : off";
+            text.color = Color.red;
+        }
+        else
+        {
+            GameplayHandler.Instance.IsAutoShoot = true;
+            text.text = "auto shoot : on";
+            text.color = Color.green;
+        }
+    }
+
     public void UpdateAmmoText()
     {
         if(weaponselector.Instance.Weapons[GameManager.Instance.weaponSelected].gameObject.GetComponent<genericShooter>())

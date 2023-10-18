@@ -89,7 +89,7 @@ public class shotgun : MonoBehaviour {
 	camerarotate cameracontroller;
 	Animation myanimation;
 	public Transform meleeweapon;
-	private float autoShootDistance;
+	public float autoShootDistance;
 	
 	private void Awake()
 	{
@@ -111,7 +111,7 @@ public class shotgun : MonoBehaviour {
 		myanimation.Stop();
 		onstart();
 
-		autoShootDistance = PlayerPrefs.GetString("Mode") == "Zombie" ? 7f : Mathf.Infinity;
+		
 
 	}
 	
@@ -131,31 +131,36 @@ public class shotgun : MonoBehaviour {
 		if (Physics.Raycast(muzzle.position, transform.TransformDirection(Vector3.forward), out hit, autoShootDistance))
 		{                                                                                                    //AutoShoot and Aim Color Changed
 
-			//if (PlayerPrefs.GetInt("AutoShoot") == 1)
-			//{
-			//	if (hit.collider.CompareTag("HitBox") && hit.collider.gameObject.layer == 14 || hit.collider.CompareTag("uzAIZombie"))
-			//	{
-			//		if (currentammo == 0)
-			//		{
-			//			reload();
-			//		}
-			//		else
-			//		{
-			//			fire();
-			//			Debug.Log("Fires");
-			//			// CrosshairColor.Instance.CrossAssistColor();
-			//			InGameProperties.Instance.CrossAssistColor();
-			//		}
-			//	}
-			//	else
-			//	{
-			//		// CrosshairColor.Instance.CrossAimColor();
-			//		InGameProperties.Instance.CrossAimColor();
-			//	}
-					
-			//}
-				
-			if (hit.collider.CompareTag("HitBox")&& hit.collider.gameObject.layer == 14)
+            //if (PlayerPrefs.GetInt("AutoShoot") == 1)
+            //{
+            //	if (hit.collider.CompareTag("HitBox") && hit.collider.gameObject.layer == 14 || hit.collider.CompareTag("uzAIZombie"))
+            //	{
+            //		if (currentammo == 0)
+            //		{
+            //			reload();
+            //		}
+            //		else
+            //		{
+            //			fire();
+            //			Debug.Log("Fires");
+            //			// CrosshairColor.Instance.CrossAssistColor();
+            //			InGameProperties.Instance.CrossAssistColor();
+            //		}
+            //	}
+            //	else
+            //	{
+            //		// CrosshairColor.Instance.CrossAimColor();
+            //		InGameProperties.Instance.CrossAimColor();
+            //	}
+
+            //}
+            if (hit.collider.gameObject.layer == 8)
+            {
+                if (GameplayHandler.Instance.IsAutoShoot)
+                    fire();
+            }
+
+            if (hit.collider.CompareTag("HitBox")&& hit.collider.gameObject.layer == 14)
 			{
 				enemy = hit.transform.GetComponent<HitBox>().myScript.transform.GetComponent<HealthScript>().EnemyMeshRender.GetComponent<Outline>();
 				playerrotate.Instance.Pointer_Aim_Assist();                                                          //Enemy OutLine Show 

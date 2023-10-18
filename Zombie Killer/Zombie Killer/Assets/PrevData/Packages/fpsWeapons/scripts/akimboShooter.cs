@@ -89,7 +89,7 @@ public class akimboShooter : MonoBehaviour {
 	weaponselector inventory;
 	camerarotate cameracontroller;
 	Animation myanimation;
-	private float autoShootDistance;
+	public float autoShootDistance;
 	
 	private void Awake()
 	{
@@ -110,7 +110,7 @@ public class akimboShooter : MonoBehaviour {
 		myanimation.Stop();
 		onstart();
 		
-		autoShootDistance = PlayerPrefs.GetString("Mode") == "Zombie" ? 7f : Mathf.Infinity;
+		
 
 
 	}
@@ -130,32 +130,38 @@ public class akimboShooter : MonoBehaviour {
 
 		if (Physics.Raycast(muzzle1.position, transform.TransformDirection(Vector3.forward), out hit, autoShootDistance))
 		{
-			//AutoShoot and Aim Color Changed
+            //AutoShoot and Aim Color Changed
 
-			//if (PlayerPrefs.GetInt("AutoShoot") == 1)
-			//{
-			//	if (hit.collider.CompareTag("HitBox")&& hit.collider.gameObject.layer == 14 || hit.collider.CompareTag("uzAIZombie"))
-			//	{
-			//		if (currentammo == 0)
-			//		{
-			//			reload();
-			//		}
-			//		else
-			//		{
-			//			fire();
-			//			// CrosshairColor.Instance.CrossAssistColor();
-			//			InGameProperties.Instance.CrossAssistColor();
-			//		}
-			//	}
-			//	else
-			//	{
-			//		// CrosshairColor.Instance.CrossAimColor();
-			//		InGameProperties.Instance.CrossAimColor();
-			//	}
+            //if (PlayerPrefs.GetInt("AutoShoot") == 1)
+            //{
+            //	if (hit.collider.CompareTag("HitBox")&& hit.collider.gameObject.layer == 14 || hit.collider.CompareTag("uzAIZombie"))
+            //	{
+            //		if (currentammo == 0)
+            //		{
+            //			reload();
+            //		}
+            //		else
+            //		{
+            //			fire();
+            //			// CrosshairColor.Instance.CrossAssistColor();
+            //			InGameProperties.Instance.CrossAssistColor();
+            //		}
+            //	}
+            //	else
+            //	{
+            //		// CrosshairColor.Instance.CrossAimColor();
+            //		InGameProperties.Instance.CrossAimColor();
+            //	}
 
-			//}
+            //}
 
-			if (hit.collider.CompareTag("HitBox") && hit.collider.gameObject.layer == 14)
+            if (hit.collider.gameObject.layer == 8)
+            {
+                if (GameplayHandler.Instance.IsAutoShoot)
+                    fire();
+            }
+
+            if (hit.collider.CompareTag("HitBox") && hit.collider.gameObject.layer == 14)
 			{
 				enemy = hit.transform.GetComponent<HitBox>().myScript.transform.GetComponent<HealthScript>()
 					.EnemyMeshRender.GetComponent<Outline>();

@@ -12,6 +12,7 @@ public class raycastfire : MonoBehaviour {
 	public float range ;
 	
 	public LayerMask mask;
+	public LayerMask mask2;
 	public int projectilecount = 1;
 	public float inaccuracy = 0.1f;
 	public GameObject lineprefab;
@@ -26,9 +27,14 @@ public class raycastfire : MonoBehaviour {
 	public GameObject impactmelee;
 	public GameObject impactnodecal;
 	public GameObject ZombieBlood;
+	Ray ray2;
 
 	RaycastHit hit;
-	public void fireMelee ()
+    private void Start()
+    {
+        ray2 = new Ray(transform.position, transform.forward);
+    }
+    public void fireMelee ()
 	{
 		Vector3 fwrd = transform.forward;
 		
@@ -71,7 +77,9 @@ public class raycastfire : MonoBehaviour {
 		}
 	}
 
-	private void firebullet()
+    
+
+    private void firebullet()
 	{
 
 		Vector3 fwrd = transform.forward;

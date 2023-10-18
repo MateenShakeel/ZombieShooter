@@ -23,6 +23,7 @@ public class GameplayHandler : MonoBehaviour
     public Transform _playerController;
     public Camera PlayerCamera;
     public GameObject PlayerVolumetricLight;
+    public bool IsAutoShoot = false;
 
     [Header("Modes")]
     public Mode[] Modes;
@@ -94,10 +95,14 @@ public class GameplayHandler : MonoBehaviour
         
         PlayerCamera.farClipPlane = 750;
 
+
         currentCampaignLevel.Props.SetActive(true);
         currentCampaignLevel.KillCounter.SetActive(true);
         _playerController.GetComponent<DistanceCalculator>().SetCanCalculate(true);
         
+        _playerController.GetComponent<playerrotate>().minimumX = -70f;
+        _playerController.GetComponent<playerrotate>().maximumX = 70f;
+
         foreach(GameObject zombie in currentCampaignLevel.Zombies)
         {
             zombie.SetActive(true);

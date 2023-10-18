@@ -82,6 +82,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -95,8 +96,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -259,6 +262,9 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: UIHandler
+    methodName: SelectAutoShoot
   - assembly: Assembly-CSharp
     fullTypeName: UIHandler
     methodName: GoToHome
@@ -2482,7 +2488,7 @@ ScriptsOnlyBuild:
     className: ZombieAttack
   - hash:
       serializedVersion: 2
-      Hash: 62948408c730b3987020233c4c9e67cb
+      Hash: 43c2492f0b4da593dff96a0345b9782d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: genericShooter
@@ -4000,7 +4006,7 @@ ScriptsOnlyBuild:
     className: CameraFilterPack_Blend2Camera_Color
   - hash:
       serializedVersion: 2
-      Hash: 6e382f5ebc66012eafb9a893028a5400
+      Hash: 12c4d502f391a9c98718388b490e50f4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: shotgun
@@ -4540,7 +4546,7 @@ ScriptsOnlyBuild:
     className: CameraFilterPack_TV_Video3D
   - hash:
       serializedVersion: 2
-      Hash: 519704ad8a888688077cb759cf61261a
+      Hash: ba216a1bf0fd6055b044f59dd514f2bb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: akimboShooter
@@ -5008,7 +5014,7 @@ ScriptsOnlyBuild:
     className: SimpleFollowCam
   - hash:
       serializedVersion: 2
-      Hash: 846db2a2a7ec109473ac8a2209066a04
+      Hash: 9a27019464527606fdcbfaf105664736
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameplayHandler
@@ -5056,7 +5062,7 @@ ScriptsOnlyBuild:
     className: CameraFilterPack_VHS_Tracking
   - hash:
       serializedVersion: 2
-      Hash: 4a0f12c012dbfcbee4223736c05ab9a1
+      Hash: a2cf20b92a6dcf05b5062d14eb5183f3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: raycastfire
@@ -5342,4 +5348,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MyScenes/Loading.unity
   - Assets/Scenes/Gameplay.unity
   playerPath: C:/Users/Mateen/Documents/GitHub/ZombieShooter/Zombie Killer/Zombie
-    Killer/ZombieFinal.apk
+    Killer/ZombieFinalAPK.apk
